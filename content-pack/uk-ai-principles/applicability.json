@@ -1,0 +1,11 @@
+{
+  "set": "uk-ai-principles",
+  "schema_version": 1,
+  "items": {
+    "uk-ai-5-principles::principle-1-safe": "AI should be safe, secure and robust by design, with appropriate fail-safes and the ability for humans to intervene in decisions the system shapes.",
+    "uk-ai-5-principles::principle-2-appropriate": "Organisations using AI should be able to explain what it is doing and take responsibility for its outcomes, with transparent processes and clear accountability mechanisms.",
+    "uk-ai-5-principles::principle-3-fairness": "AI systems should be fair and just, with attention to bias, discrimination and equitable treatment across different groups in design, data and outcomes.",
+    "uk-ai-5-principles::principle-4-transparency": "It should be clear when AI is being used, how decisions are made, and what the limitations of the AI system are.",
+    "uk-ai-5-principles::principle-5-accountability": "Existing regulators should proactively adapt and apply existing principles-based approaches to AI in their remits, so that accountability for AI outcomes is clearly assigned, including for fairness of decisions AI shapes."
+  }
+}

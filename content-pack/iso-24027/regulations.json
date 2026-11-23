@@ -1,0 +1,79 @@
+{
+  "set": "iso-24027",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "ISO/IEC 24027",
+      "jurisdiction": "International",
+      "version": "24027:2024",
+      "effective_date": "2024-01-01",
+      "status": "ACTIVE",
+      "source_url": "https://www.iso.org/standard/79827.html",
+      "description": "Guidance on considering bias in AI systems — identifying where bias can enter a system, mitigating it at the data, processing and output stages, and measuring the fairness of the system's results across the groups and uses it touches.",
+      "titles": [
+        {
+          "number": "Sections 1-3",
+          "text": "Bias identification, mitigation and fairness evaluation",
+          "sections": [
+            {
+              "number": "Section 1",
+              "text": "Bias identification in AI systems",
+              "requirements": [
+                {
+                  "text": "Work out where bias can enter the AI system — in the selection of data and samples, in how things are measured, in what gets reported, and in systemic patterns — across design, data collection and deployment, keeping affected individuals and domains in view.",
+                  "mandatory": false,
+                  "rationale": "Bias that is mapped before it is modelled can be designed around; selection, measurement, reporting and systemic routes each need looking for separately.",
+                  "controls": [
+                    {
+                      "description": "Run a bias-route review over training and evaluation data, measurement choices and reporting practices; record the identified bias types, affected groups and domains in the fairness register.",
+                      "type": "REVIEW",
+                      "status": "VALIDATED",
+                      "validated_by": "Head of Model Risk",
+                      "validated_at": "2026-07-01T09:00:00Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Section 2",
+              "text": "Bias mitigation strategies",
+              "requirements": [
+                {
+                  "text": "Choose and apply measures against the identified biases — at the data stage, while the model is developed, or after deployment — so mitigation is deliberate and recorded rather than incidental.",
+                  "mandatory": false,
+                  "rationale": "Pre-, in- and post-processing levers suit different bias types; recording which lever was chosen keeps mitigation accountable.",
+                  "controls": [
+                    {
+                      "description": "Document the chosen mitigation stage (data, processing or output) with its rationale and owner for each identified bias, and link it to the fairness metric that will show whether it worked.",
+                      "type": "DOCUMENTATION",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Section 3",
+              "text": "Fairness evaluation and measurement",
+              "requirements": [
+                {
+                  "text": "Decide and measure how fair the system's outputs are for the different groups and use-cases it touches, and treat that measurement as part of putting the system into use.",
+                  "mandatory": false,
+                  "rationale": "Fairness claims need a chosen, repeatable measurement across groups; measuring only at build time lets drift go unseen.",
+                  "controls": [
+                    {
+                      "description": "Fix documented fairness metrics and thresholds per affected group and use-case; report results on a scheduled cadence alongside model monitoring.",
+                      "type": "MONITORING",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

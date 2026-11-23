@@ -1,0 +1,235 @@
+{
+  "set": "eu-dora",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "EU DORA",
+      "jurisdiction": "EU",
+      "version": "2022/2554",
+      "effective_date": "2025-01-17",
+      "status": "ACTIVE",
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj",
+      "description": "Digital Operational Resilience Act — ICT risk and operational resilience for financial entities (Chapters II–VI)",
+      "titles": [
+        {
+          "number": "Chapter II",
+          "text": "ICT risk and incident management requirements",
+          "sections": [
+            {
+              "number": "Article 5",
+              "text": "Governance of ICT risk",
+              "requirements": [
+                {
+                  "text": "Financial entities shall put ICT risk inside the same governance and control framework that oversees every other risk the organisation takes, with the management body ultimately accountable (Article 5).",
+                  "mandatory": true,
+                  "rationale": "Management-body accountability sets the tone from the top for digital operational resilience, including risks posed by AI systems.",
+                  "controls": [
+                    {
+                      "description": "Assign ICT risk (including AI-related ICT risk) ownership within the existing risk governance framework; report the ICT risk profile to the management body on a defined cadence.",
+                      "type": "PROCESS",
+                      "status": "VALIDATED",
+                      "validated_by": "Chief Risk Officer",
+                      "validated_at": "2026-09-15T10:00:00Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Articles 6, 8–14",
+              "text": "ICT risk management framework",
+              "requirements": [
+                {
+                  "text": "Financial entities shall implement, maintain and continuously govern a comprehensive ICT risk management framework covering identification, protection, detection, response, recovery and lessons-learned across the ICT risk life cycle (Articles 6 and 8–14), including risks posed by AI systems.",
+                  "mandatory": true,
+                  "rationale": "A documented life-cycle framework keeps ICT and AI-related risk under continuous governance rather than point-in-time assessment.",
+                  "controls": [
+                    {
+                      "description": "Maintain the ICT risk management framework documentation covering each life-cycle phase; review at least annually and after material changes to AI-supported systems.",
+                      "type": "DOCUMENTATION",
+                      "status": "PENDING"
+                    },
+                    {
+                      "description": "Run an ICT risk identification cycle that enumerates AI components (models, pipelines, providers) alongside other ICT assets and records their inherent risk.",
+                      "type": "PROCESS",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Chapter III",
+          "text": "ICT-related incidents, testing and data",
+          "sections": [
+            {
+              "number": "Articles 17–19",
+              "text": "ICT incident management and reporting",
+              "requirements": [
+                {
+                  "text": "Financial entities must establish an ICT incident-management process — classification and reporting of ICT-related incidents, with major ICT-related incidents reported to the competent authority through a single streamlined channel within the regulation's timelines (Articles 17–19).",
+                  "mandatory": true,
+                  "rationale": "Structured detection, classification and reporting keeps supervisors and the entity informed of incidents that could involve AI systems.",
+                  "controls": [
+                    {
+                      "description": "Implement an incident classification scheme aligned to the major-incident criteria and test the reporting channel; include AI-involved incident scenarios in the playbook.",
+                      "type": "PROCESS",
+                      "status": "PENDING"
+                    },
+                    {
+                      "description": "Log incident reports against the reporting timeline so late or missed notifications surface in the register.",
+                      "type": "MONITORING",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Article 21",
+              "text": "Centralisation of major-incident reporting (ESA duty)",
+              "requirements": [
+                {
+                  "text": "The ESAs, through the Joint Committee, assess the feasibility of further centralising major ICT-related incident reporting through a single EU Hub and report to the EU institutions by 17 January 2025 (Article 21). This is a duty on the authorities, carried for visibility — not an obligation on financial entities.",
+                  "mandatory": false,
+                  "rationale": "Recording the authority-side duty keeps the reporting architecture complete and prevents it being mis-read as an entity obligation.",
+                  "controls": [
+                    {
+                      "description": "Track the ESA centralisation report's outcome and flag any change to reporting channels in the incident playbook.",
+                      "type": "REVIEW",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Chapter IV",
+          "text": "Digital operational resilience testing",
+          "sections": [
+            {
+              "number": "Articles 24–26",
+              "text": "Resilience testing programme",
+              "requirements": [
+                {
+                  "text": "Financial entities shall subject ICT systems, tools and processes to a programme of digital operational resilience testing — vulnerability assessments, gap analyses and like-for-like tests at risk-proportionate frequency, critical functions tested at least yearly by independent parties, plus threat-led penetration testing (TLPT) for significant entities (Articles 24–26).",
+                  "mandatory": true,
+                  "rationale": "A risk-proportionate testing programme evidences that resilience controls actually work, including on AI-supported systems.",
+                  "controls": [
+                    {
+                      "description": "Maintain the annual resilience testing plan with criticality tiers and independence arrangements; record results and remediation to closure.",
+                      "type": "TESTING",
+                      "status": "VALIDATED",
+                      "validated_by": "Head of Technology Risk",
+                      "validated_at": "2026-09-15T10:00:00Z"
+                    },
+                    {
+                      "description": "Include AI-supported critical functions in like-for-like testing scope and track TLPT findings where the entity is in TLPT scope.",
+                      "type": "TESTING",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Article 27",
+              "text": "Requirements for TLPT testers",
+              "requirements": [
+                {
+                  "text": "Financial entities may only use TLPT testers of the highest suitability and reputability — technically capable, certified or bound by codes of conduct, independently assured and insured — whether external or, with safeguards, internal (Article 27).",
+                  "mandatory": true,
+                  "rationale": "Tester suitability conditions protect the integrity of threat-led tests on live networks.",
+                  "controls": [
+                    {
+                      "description": "Keep a tester suitability register (certification, insurance, independence, conflict-of-interest safeguards) for every TLPT engagement.",
+                      "type": "DOCUMENTATION",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Chapter V",
+          "text": "Management of ICT third-party risk",
+          "sections": [
+            {
+              "number": "Articles 28–30",
+              "text": "Third-party ICT risk management",
+              "requirements": [
+                {
+                  "text": "Financial entities must manage ICT-related risks arising from ICT third-party providers — including providers of AI services — maintain a register of information of all contractual ICT arrangements, and apply the required contractual provisions of Article 30 (Articles 28–30).",
+                  "mandatory": true,
+                  "rationale": "Third-party ICT and AI dependencies concentrate operational risk; the register and contract clauses make it manageable and exitable.",
+                  "controls": [
+                    {
+                      "description": "Maintain the register of information for all ICT contracts, flagging AI-service providers and their concentration risk.",
+                      "type": "DOCUMENTATION",
+                      "status": "VALIDATED",
+                      "validated_by": "Head of Procurement Risk",
+                      "validated_at": "2026-09-15T10:00:00Z"
+                    },
+                    {
+                      "description": "Embed Article 30's contractual provisions (access, recovery, termination, audit rights) in new and renewed AI/ICT provider contracts.",
+                      "type": "PROCESS",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Articles 31–34",
+              "text": "Oversight of critical ICT third-party providers (authority duty)",
+              "requirements": [
+                {
+                  "text": "DORA's Chapter V Section II sets EU-level oversight of designated critical ICT third-party providers — designation and Lead Overseer appointment (Art 31), the Oversight Forum (Art 32), annual oversight plans (Art 33) and the Joint Oversight Network (Art 34). The obligations fall on the ESAs and Lead Overseers, carried here because critical-provider status materially affects entities' third-party AI dependencies.",
+                  "mandatory": false,
+                  "rationale": "Provider designation outcomes change the entity's dependency risk profile even though the duty sits with the authorities.",
+                  "controls": [
+                    {
+                      "description": "Monitor designation lists of critical ICT third-party providers and reassess concentration risk for AI dependencies on designated providers.",
+                      "type": "MONITORING",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Chapter VI",
+          "text": "Arrangements for information sharing",
+          "sections": [
+            {
+              "number": "Article 45",
+              "text": "Cyber threat information sharing",
+              "requirements": [
+                {
+                  "text": "Financial entities may exchange cyber threat information and intelligence — indicators of compromise, tactics, techniques and procedures, alerts — within trusted communities under arrangements that protect business confidentiality, personal data and competition rules (Article 45). The article is permissive: it opens a lawful sharing route rather than imposing an obligation.",
+                  "mandatory": false,
+                  "rationale": "Participation in threat-intelligence sharing improves incident detection; the safeguards determine whether the route is lawful for the entity.",
+                  "controls": [
+                    {
+                      "description": "Where the entity joins a sharing arrangement, document the confidentiality, data-protection and competition safeguards the arrangement applies.",
+                      "type": "DOCUMENTATION",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

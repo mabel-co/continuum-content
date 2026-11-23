@@ -1,0 +1,9 @@
+{
+  "set": "japan-ai-gov",
+  "schema_version": 1,
+  "items": {
+    "japan-ai-gov::part-1-basic-approach": "Japan's Guideline for Ensuring the Appropriateness of Research, Development and Utilization of AI-Related Technology (AI Strategic Headquarters decision of 19 December 2025, issued under Article 13 of the AI Basic Act) is a voluntary baseline addressed to every stakeholder. It lists ten elements to weigh — human-centredness, fairness, safety, transparency, accountability, security, privacy and personal information, fair competition, AI literacy and innovation — plus four approaches: risk-based measures, active stakeholder involvement, end-to-end AI governance across the research-to-deployment lifecycle, and agile PDCA responses to shifting risk.",
+    "japan-ai-gov::part-2-ai-governance": "For research institutions and businesses that develop or use AI, the Japanese guideline asks each organisation to build, operate and continuously improve AI governance across the whole lifecycle of design, development, provision and implementation: organisational processes to identify, evaluate and treat risk, with management-level monitoring and evaluation, appropriate information disclosure, and education and training — maximising AI's benefits while keeping its risks at an acceptable level.",
+    "japan-ai-gov::part-2-transparency-and-safety": "Two further provider duties in the Japanese guideline travel together: transparency that builds stakeholder trust — reasonable explainability of training-data provenance and outputs, including intellectual-property and privacy protections, plus user-facing disclosure of the AI's mechanics and limits, prohibited uses, data-collection policy and reliability caveats; and sufficient safety secured through technical means against risks such as misjudgement and hallucination. Business-continuity measures for a safe environment, and consideration for data holders as stakeholders, ride alongside them."
+  }
+}

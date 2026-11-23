@@ -1,0 +1,10 @@
+{
+  "set": "nist-ai-rmf",
+  "schema_version": 1,
+  "items": {
+    "nist-ai-rmf-10::govern": "The GOVERN function: establish expectations for AI risk management, policies, roles and accountability, so trustworthy AI is embedded in organizational culture and risk processes (voluntary framework).",
+    "nist-ai-rmf-10::map": "The MAP function: contextualize the AI use-case — establish the environment, intended purposes and stakeholder expectations, and categorize the AI risks that apply to this system (voluntary framework).",
+    "nist-ai-rmf-10::measure": "The MEASURE function: develop and implement quantitative and qualitative measures of AI system performance, including effectiveness, safety and reliability, and evaluate the system against them (voluntary framework).",
+    "nist-ai-rmf-10::manage": "The MANAGE function: prioritize, document and implement risk responses — treatment, mitigation and continuous monitoring of the AI system throughout its lifecycle (voluntary framework)."
+  }
+}

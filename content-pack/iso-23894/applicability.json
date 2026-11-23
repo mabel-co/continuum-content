@@ -1,0 +1,11 @@
+{
+  "set": "iso-23894",
+  "schema_version": 1,
+  "items": {
+    "iso-23894::clause-6": "Guidance on running a risk process for AI: talk to the people involved, fix the scope and criteria, identify, analyse and evaluate risks, treat them, and keep watching through the AI lifecycle.",
+    "iso-23894::risk-identification": "Work out where the AI system could go wrong: involve the people who build, operate and are affected by it, fix the scope and risk criteria, and identify risks across the system's lifecycle, aligned with ISO 31000.",
+    "iso-23894::risk-assessment": "Analyse and evaluate the AI risks you identified — how likely they are and how severe their consequences could be — using established risk-assessment methods adapted to AI systems.",
+    "iso-23894::risk-treatment": "Decide how to respond to each evaluated AI risk — avoid, mitigate, transfer or accept it — so the chosen treatment is deliberate and traceable back to the assessment.",
+    "iso-23894::risk-monitoring": "Keep watching AI risks throughout the system's lifecycle and review whether the treatments are working, feeding what you learn back into the risk process."
+  }
+}

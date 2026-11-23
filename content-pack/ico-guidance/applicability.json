@@ -1,0 +1,10 @@
+{
+  "set": "ico-guidance",
+  "schema_version": 1,
+  "items": {
+    "ico-ai-guidance::dpia": "Organisations using AI systems that process personal data must conduct Data Protection Impact Assessments (DPIAs) to identify and mitigate data protection risks.",
+    "ico-ai-guidance::automated-decision-making": "UK GDPR Article 22 applies to wholly automated decisions with legal or similarly significant effects: right to human review and meaningful information about the logic involved, including the right to obtain human intervention.",
+    "ico-ai-guidance::transparency": "Organisations must be transparent about using AI to process personal data, including telling data subjects clearly how automated decision-making affects them.",
+    "ico-ai-guidance::bias-and-fairness": "AI systems that process personal data must be designed and operated to avoid bias and ensure fair treatment, consistent with the data protection principles."
+  }
+}

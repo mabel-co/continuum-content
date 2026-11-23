@@ -1,0 +1,120 @@
+{
+  "set": "uk-ai-principles",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "UK AI White Paper — 5 Principles",
+      "jurisdiction": "UK",
+      "version": "White Paper 2023",
+      "effective_date": "2023-03-01",
+      "status": "ACTIVE",
+      "source_url": "https://www.gov.uk/government/publications/ai-future-finding-the-right-time-to-act",
+      "description": "AI White Paper pro-innovation approach: five cross-sector principles that regulators are asked to apply to AI without new legislation",
+      "titles": [
+        {
+          "number": "Principles",
+          "text": "Cross-sector principles for the regulation of AI",
+          "sections": [
+            {
+              "number": "Principle 1",
+              "text": "Safety, security and robustness",
+              "requirements": [
+                {
+                  "text": "AI should be safe, transparent and controllable, with systems designed for safety, security and robustness, appropriate fail-safes and the ability for humans to intervene.",
+                  "mandatory": true,
+                  "rationale": "Regulators expect safety properties to be engineered, not assumed.",
+                  "controls": [
+                    {
+                      "description": "Design fail-safe and human-intervention paths into AI systems proportionate to their risk.",
+                      "type": "TECHNICAL",
+                      "status": "VALIDATED",
+                      "validated_by": "Head of Model Risk",
+                      "validated_at": "2026-07-01T09:00:00Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Principle 2",
+              "text": "Appropriate transparency and accountability",
+              "requirements": [
+                {
+                  "text": "Organisations should be able to explain what AI is doing and take responsibility for it, with transparent processes and clear accountability mechanisms in place.",
+                  "mandatory": true,
+                  "rationale": "Accountability without traceability is unenforceable.",
+                  "controls": [
+                    {
+                      "description": "Record accountable owners for each AI system and the explanations available to affected parties.",
+                      "type": "DOCUMENTATION",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Principle 3",
+              "text": "Fairness",
+              "requirements": [
+                {
+                  "text": "AI systems should be fair and just, with attention to bias, discrimination and equitable treatment across different groups in design, data and outcomes.",
+                  "mandatory": false,
+                  "rationale": "Fairness must be evidenced across the groups a system touches.",
+                  "controls": [
+                    {
+                      "description": "Test outputs for disparate impact across protected characteristics and document remediation where found.",
+                      "type": "TESTING",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Principle 4",
+              "text": "Transparency and explainability",
+              "requirements": [
+                {
+                  "text": "Organisations should be transparent about when AI is being used, how decisions are made and the limitations of AI systems, and be able to explain what the AI is doing.",
+                  "mandatory": false,
+                  "rationale": "Explainability underpins challenge and redress.",
+                  "controls": [
+                    {
+                      "description": "Disclose AI use and provide accessible explanations of decision logic and system limitations to users.",
+                      "type": "PROCESS",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Principle 5",
+              "text": "Contestability and redress",
+              "requirements": [
+                {
+                  "text": "There should be appropriate redress and challenge mechanisms so individuals can contest AI-driven decisions and access meaningful human review.",
+                  "mandatory": true,
+                  "rationale": "Contestability is the principle that makes the other four reviewable in practice.",
+                  "controls": [
+                    {
+                      "description": "Operate a documented route for contesting AI-driven decisions with human review by a competent person.",
+                      "type": "PROCESS",
+                      "status": "PENDING"
+                    },
+                    {
+                      "description": "Track contest volumes, outcomes and changes made in response.",
+                      "type": "MONITORING",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

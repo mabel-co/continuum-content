@@ -1,0 +1,169 @@
+{
+  "set": "eu-nis2",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "EU NIS2",
+      "jurisdiction": "EU",
+      "version": "2022/2555",
+      "effective_date": "2024-10-17",
+      "status": "ACTIVE",
+      "source_url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj",
+      "description": "NIS2 Directive — cybersecurity risk-management, incident reporting and supervision duties for essential and important entities (Chapters IV and VII)",
+      "titles": [
+        {
+          "number": "Chapter IV",
+          "text": "Prevention, minimisation of and incident reporting",
+          "sections": [
+            {
+              "number": "Article 20",
+              "text": "Governance",
+              "requirements": [
+                {
+                  "text": "The management body of an essential or important entity must approve the Article 21 risk-management measures and oversee their implementation, can be held liable for infringements, and its members must receive cybersecurity risk-management training (Article 20).",
+                  "mandatory": true,
+                  "rationale": "Board-level accountability is where AI-security decisions actually get made: approval and training records show the management body engaged with the systems the firm deploys.",
+                  "controls": [
+                    {
+                      "description": "Document management-body approval of the cybersecurity risk-management measures and keep training records for management-body members current.",
+                      "type": "DOCUMENTATION",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Article 21",
+              "text": "Cybersecurity risk-management measures",
+              "requirements": [
+                {
+                  "text": "Entities must take appropriate and proportionate technical, operational and organisational measures to manage the risks to the security of their network and information systems, and to prevent or minimise the impact of incidents on service recipients — covering at least risk analysis, incident handling, business continuity, supply-chain security, secure development and vulnerability handling, cyber hygiene, cryptography, access control and authentication (Article 21).",
+                  "mandatory": true,
+                  "rationale": "AI pipelines and inference services run on the same network and information systems; the Article 21 measure set is where their security risks are managed.",
+                  "controls": [
+                    {
+                      "description": "Maintain the all-hazards cybersecurity risk-management measure set — incident handling, business continuity, supply-chain security, secure development and vulnerability handling — with named owners and a defined review cadence.",
+                      "type": "PROCESS",
+                      "status": "VALIDATED",
+                      "validated_by": "Head of Technology Risk",
+                      "validated_at": "2026-09-15T10:00:00Z"
+                    },
+                    {
+                      "description": "Assess AI-specific threat surfaces (training-data pipelines, model stores, inference endpoints) within the Article 21 measure set and record mitigations proportionate to the state of the art.",
+                      "type": "REVIEW",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Article 23",
+              "text": "Reporting obligations",
+              "requirements": [
+                {
+                  "text": "Entities must notify significant incidents to the CSIRT or competent authority without undue delay: an early warning within 24 hours, an incident notification within 72 hours, and a final report within one month, and must warn potentially affected service recipients (Article 23).",
+                  "mandatory": true,
+                  "rationale": "Incidents that disrupt or corrupt an AI service cascade across the value chain; the reporting timeline is what forces a coordinated response.",
+                  "controls": [
+                    {
+                      "description": "Operate the 24-hour early-warning / 72-hour notification / one-month final-report timeline against the competent authority.",
+                      "type": "PROCESS",
+                      "status": "VALIDATED",
+                      "validated_by": "Chief Risk Officer",
+                      "validated_at": "2026-09-15T10:00:00Z"
+                    },
+                    {
+                      "description": "Maintain the criteria and channel for warning potentially affected service recipients of significant cyber threats and available mitigations.",
+                      "type": "PROCESS",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Chapter VII",
+          "text": "Supervision and enforcement",
+          "sections": [
+            {
+              "number": "Article 32",
+              "text": "Supervision of essential entities",
+              "requirements": [
+                {
+                  "text": "Essential entities are subject to proactive supervision: the competent authority may carry out on-site and off-site inspections including random checks, regular, targeted and ad hoc security audits, security scans and information requests, and may issue warnings, binding instructions and orders to remedy infringements (Article 32). The duty falls on the authority; it is carried here for enforcement visibility.",
+                  "mandatory": true,
+                  "rationale": "An inspection regime reaches the infrastructure AI systems run on — evidence packs kept current are what an AI-relevant inspection finds.",
+                  "controls": [
+                    {
+                      "description": "Keep evidence packs (policies, audit reports, scan results, implemented-measure documentation) ready for inspections, ad hoc audits and information requests.",
+                      "type": "DOCUMENTATION",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Article 33",
+              "text": "Supervision of important entities",
+              "requirements": [
+                {
+                  "text": "Important entities are supervised reactively: when the authority is provided with evidence, indication or information of non-compliance, at least ex post supervisory measures — inspections, targeted audits, scans, information requests — and enforcement powers apply, with the Article 32 safeguards applying mutatis mutandis (Article 33).",
+                  "mandatory": true,
+                  "rationale": "Reactive supervision still bites: an AI-related incident or complaint can supply the evidence that triggers it.",
+                  "controls": [
+                    {
+                      "description": "Map the ex post supervision triggers to an internal escalation route that closes findings before they surface to the authority.",
+                      "type": "REVIEW",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Article 34",
+              "text": "General conditions for imposing administrative fines",
+              "requirements": [
+                {
+                  "text": "Administrative fines for infringements of Articles 21 and 23 apply in addition to the Article 32/33 supervisory and enforcement measures: upper bounds of at least EUR 10 million or 2 % of total worldwide annual turnover for essential entities and at least EUR 7 million or 1,4 % for important entities, whichever is higher; Member States may add periodic penalty payments and, absent administrative fines, courts must impose equivalents (Article 34).",
+                  "mandatory": true,
+                  "rationale": "Turnover-based fine ceilings put a concrete number on what inadequate security of AI-running systems can cost.",
+                  "controls": [
+                    {
+                      "description": "Track the entity's essential/important classification and the applicable national fine ceilings in the risk register so enforcement exposure stays visible to the board.",
+                      "type": "MONITORING",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Article 35",
+              "text": "Infringements entailing a personal data breach",
+              "requirements": [
+                {
+                  "text": "Where an infringement of Articles 21 or 23 can entail a personal data breach notifiable under the GDPR, the competent authority must inform the data-protection supervisory authority without undue delay; where the data-protection authority has fined the same conduct under the GDPR, no additional NIS2 administrative fine applies for that conduct, though NIS2 supervisory and enforcement measures remain available (Article 35).",
+                  "mandatory": true,
+                  "rationale": "An incident that corrupts or leaks personal data through an AI service sits across both regimes; this row keeps the coordination duty and the no-duplication rule visible.",
+                  "controls": [
+                    {
+                      "description": "Wire the competent-authority-to-data-protection-authority notification path into the incident runbook so NIS2 and GDPR enforcement responses are coordinated from the first hour.",
+                      "type": "PROCESS",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

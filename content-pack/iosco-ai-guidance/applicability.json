@@ -1,0 +1,9 @@
+{
+  "set": "iosco-ai-guidance",
+  "schema_version": 1,
+  "items": {
+    "iosco-ai-guidance::market-surveillance": "IOSCO's guidance on market surveillance addresses firms' use of artificial intelligence to detect market abuse, insider trading and manipulative practices. It expects oversight of surveillance tooling, staff understanding of the alerts it produces, and periodic assessment of effectiveness, while leaving the firm's existing surveillance obligations untouched.",
+    "iosco-ai-guidance::investment-research": "IOSCO's guidance on artificial intelligence in investment research covers due diligence over AI-driven research outputs and analyst oversight. Research remains attributable to a responsible analyst, and firms are expected to understand the limitations of AI tools that generate or shape published research.",
+    "iosco-ai-guidance::robo-advisory": "IOSCO's reports on artificial intelligence in robo-advisory and wealth management cover suitability assessment and disclosure for automated advice. Firms are expected to explain the role of AI in recommendations, oversee the advice process, and periodically review the AI tools themselves."
+  }
+}

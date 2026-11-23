@@ -1,0 +1,11 @@
+{
+  "set": "uk-fca",
+  "schema_version": 1,
+  "items": {
+    "fca-ai-guidance::consumer-duty": "Firms must be able to demonstrate that AI use delivers good consumer outcomes under the Consumer Duty, including monitoring for disparate impacts and providing appropriate redress where AI causes harm.",
+    "fca-ai-guidance::testing-validation": "Firms should establish proportionate testing and validation regimes for AI before and during deployment, accounting for data quality, model performance, drift and the firm's wider control environment.",
+    "fca-ai-guidance::governance-accountability": "Firms remain fully accountable for AI outcomes; there should be a dedicated individual responsible for the AI system's role in regulated business activities and for its effective control.",
+    "fca-ai-guidance::operational-resilience": "Firms must ensure AI supports the delivery of their important business services within established impact tolerances, including contingency plans, incident management, and recovery procedures for disruption involving AI systems.",
+    "fca-ai-guidance::third-party-risk": "Firms must manage third-party risk associated with AI systems throughout the life span of the arrangement, including vendor due diligence, contractual requirements, and monitoring of third-party AI providers, with greater risk management as dependence on outsourced providers increases."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "set": "eba-ai-guidelines",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "EBA AI/ML Guidelines",
+      "jurisdiction": "EU",
+      "version": "v1",
+      "effective_date": "2026-08-26",
+      "status": "ACTIVE",
+      "source_url": "https://www.eba.europa.eu/regulation-and-policy/internal-governance",
+      "description": "EBA guidelines and reports relevant to AI/ML in European financial institutions, referenced by section only: our own-language paraphrase; no EBA text is embedded",
+      "titles": [
+        {
+          "number": "Framework",
+          "text": "EU banking guidance touching AI",
+          "sections": [
+            {
+              "number": "Section 1",
+              "text": "ICT and security risk management",
+              "requirements": [
+                {
+                  "text": "Financial entities' ICT and security risk management frameworks cover AI systems, applying EBA ICT guidelines' governance, protection and resilience requirements.",
+                  "mandatory": true,
+                  "rationale": "AI systems are ICT assets; excluding them from the ICT framework leaves them ungoverned.",
+                  "controls": [
+                    {
+                      "description": "Register AI systems within the ICT risk framework with owner, criticality and incident routes defined.",
+                      "type": "PROCESS",
+                      "status": "VALIDATED",
+                      "validated_by": "Head of Model Risk",
+                      "validated_at": "2026-07-01T09:00:00Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Section 2",
+              "text": "Third-party and outsourcing arrangements",
+              "requirements": [
+                {
+                  "text": "Third-party AI services are governed under EBA outsourcing expectations and their successors - the ICT guidelines (EBA/GL/2022/03) for ICT-dependent services and the non-ICT third-party risk guidelines for the rest - including due diligence and contractual requirements.",
+                  "mandatory": true,
+                  "rationale": "Vendor-supplied AI carries the same outsourcing risk as any other material function.",
+                  "controls": [
+                    {
+                      "description": "Perform documented due diligence and register contractual terms for every third-party AI provider.",
+                      "type": "DOCUMENTATION",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Section 3",
+              "text": "Credit scoring",
+              "requirements": [
+                {
+                  "text": "The EBA report on AI and machine learning in credit scoring examines AI/ML use in credit decisions and recommends governance practices for model development, validation and explainability.",
+                  "mandatory": false,
+                  "rationale": "Credit decisions are consequential; the EBA set out governance expectations for AI in this use specifically.",
+                  "controls": [
+                    {
+                      "description": "Apply report recommendations to AI/ML credit models: explainability, performance monitoring and validation.",
+                      "type": "REVIEW",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

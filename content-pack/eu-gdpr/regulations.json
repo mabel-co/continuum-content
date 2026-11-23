@@ -1,0 +1,139 @@
+{
+  "set": "eu-gdpr",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "EU GDPR",
+      "jurisdiction": "EU",
+      "version": "2016/679",
+      "effective_date": "2018-05-25",
+      "status": "ACTIVE",
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "description": "General Data Protection Regulation — data-protection duties relevant to AI systems processing personal data (principles, rights, accountability)",
+      "titles": [
+        {
+          "number": "Chapter II",
+          "text": "Principles",
+          "sections": [
+            {
+              "number": "Article 5",
+              "text": "Principles of processing",
+              "requirements": [
+                {
+                  "text": "Personal data must be processed lawfully, fairly and transparently, for specified purposes, adequately and minimally, accurately, and with integrity and confidentiality — with the controller demonstrably accountable for all six principles (Article 5).",
+                  "mandatory": true,
+                  "rationale": "The Article 5 principles frame every AI pipeline that touches personal data: fairness and transparency shape design, minimisation shapes datasets, accountability makes both demonstrable.",
+                  "controls": [
+                    {
+                      "description": "Map each AI feature that processes personal data to the six principles and record the safeguards that evidence each one.",
+                      "type": "PROCESS",
+                      "status": "VALIDATED",
+                      "validated_by": "Data Protection Officer",
+                      "validated_at": "2026-09-15T10:00:00Z"
+                    },
+                    {
+                      "description": "Apply data-minimisation review to AI training and inference datasets; document why each retained field is necessary.",
+                      "type": "PROCESS",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Chapter III",
+          "text": "Rights of the data subject",
+          "sections": [
+            {
+              "number": "Article 22",
+              "text": "Automated individual decision-making",
+              "requirements": [
+                {
+                  "text": "A data subject has the right not to be subject to a decision based solely on automated processing — including profiling — that produces legal effects or similarly significant effects, save for the contract, law or explicit-consent exceptions, each of which still requires human intervention, a right to contest, and safeguards (Article 22).",
+                  "mandatory": true,
+                  "rationale": "Article 22 draws the line for fully automated consequential decisions that AI systems are increasingly used to make.",
+                  "controls": [
+                    {
+                      "description": "Inventory consequential automated decisions; ensure each qualifying decision path has a meaningful human reviewer and a contest route.",
+                      "type": "PROCESS",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Recital 72",
+              "text": "Profiling safeguards (context)",
+              "requirements": [
+                {
+                  "text": "Where profiling is used, the controller should use mathematical or statistical procedures that satisfy data-protection principles, implement technical measures to prevent error and discriminatory effects, and enable the individual to obtain human intervention and contest the decision (Recital 72; the EDPB provides guidance on this article). A contextual safeguard, not a freestanding obligation.",
+                  "mandatory": false,
+                  "rationale": "Recital 72 states how Article 22's protections should be operationalised for AI profiling; it guides implementation rather than adding a duty.",
+                  "controls": [
+                    {
+                      "description": "For AI profiling, document the accuracy/error-mitigation measures and the human-intervention and contest mechanisms the data subject can use.",
+                      "type": "REVIEW",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Recital 26",
+              "text": "Anonymisation and pseudonymisation (context)",
+              "requirements": [
+                {
+                  "text": "Data rendered anonymous so that the individual is no longer identifiable falls outside the Regulation; techniques such as pseudonymisation remain personal data if re-identification is reasonably likely (Recital 26). A contextual safeguard, not a freestanding obligation.",
+                  "mandatory": false,
+                  "rationale": "Recital 26 determines when AI datasets escape the Regulation's scope — the identifiability test drives that boundary.",
+                  "controls": [
+                    {
+                      "description": "Assess re-identification risk for aggregated or synthesised AI datasets against the reasonable-likelihood test before treating them as out of scope.",
+                      "type": "REVIEW",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Chapter IV",
+          "text": "Controller and processor obligations",
+          "sections": [
+            {
+              "number": "Article 35",
+              "text": "Data protection impact assessment",
+              "requirements": [
+                {
+                  "text": "Where processing — including systematic evaluation of personal aspects based on automated processing, i.e. profiling — is likely to result in a high risk to individuals, the controller must carry out a data protection impact assessment before processing, and consult the supervisory authority where residual high risk remains (Article 35).",
+                  "mandatory": true,
+                  "rationale": "AI systems that score, profile or monitor individuals are exactly the high-risk processing the DPIA gate targets.",
+                  "controls": [
+                    {
+                      "description": "Run a DPIA before deploying AI features that profile or systematically evaluate individuals; record the necessity and proportionality analysis.",
+                      "type": "PROCESS",
+                      "status": "VALIDATED",
+                      "validated_by": "Data Protection Officer",
+                      "validated_at": "2026-09-15T10:00:00Z"
+                    },
+                    {
+                      "description": "Escalate residual-high-risk AI processing to supervisory-authority consultation and log the outcome against the deployment gate.",
+                      "type": "PROCESS",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

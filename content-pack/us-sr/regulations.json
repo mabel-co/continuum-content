@@ -1,0 +1,135 @@
+{
+  "set": "us-sr",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "SR 26-2",
+      "jurisdiction": "US",
+      "version": "SR 26-2",
+      "effective_date": "2026-04-17",
+      "status": "ACTIVE",
+      "source_url": "https://www.federalreserve.gov/supervisionreg/srletters/SR2602.htm",
+      "description": "Supervisory Guidance on Model Risk Management — Federal Reserve Board, FDIC, OCC (replaces SR 11-7)",
+      "titles": [
+        {
+          "number": "Section 1",
+          "text": "Overview",
+          "sections": [
+            {
+              "number": "1.1",
+              "text": "Purpose of this guidance",
+              "requirements": [
+                {
+                  "text": "Banking organizations are expected to maintain model risk management practices appropriate and effective for the risks they face; the guidance is most relevant to organizations with over $30 billion in total assets and sets no enforceable standards.",
+                  "mandatory": false,
+                  "rationale": "Sound model governance remains essential for safety and soundness even where the guidance is non-prescriptive.",
+                  "controls": [
+                    {
+                      "description": "Develop and maintain a written model risk management policy approved by the board of directors.",
+                      "type": "DOCUMENTATION",
+                      "status": "DRAFT"
+                    }
+                  ]
+                },
+                {
+                  "text": "Model risk management practices should be commensurate with the model risk presented by the organization's models, considering model materiality (exposure and purpose) and the size and complexity of operations.",
+                  "mandatory": true,
+                  "rationale": "A risk-based, tailored approach ensures governance effort tracks actual model risk rather than applying uniform rigor.",
+                  "controls": [
+                    {
+                      "description": "Classify models by materiality (inherent risk in the context of exposure and purpose); apply governance rigor commensurate with each tier.",
+                      "type": "PROCESS",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Section 2",
+          "text": "Governance and oversight",
+          "sections": [
+            {
+              "number": "2.3",
+              "text": "Model validation",
+              "requirements": [
+                {
+                  "text": "Validation should occur prior to a model's first use, with nature, rigor, and frequency aligned to the model's approach, use, and materiality; its quality depends on the rigor and effectiveness of the review rather than the organizational structure of the validation function.",
+                  "mandatory": true,
+                  "rationale": "Risk-aligned validation keeps scrutiny proportionate while still characterising model risk and limitations.",
+                  "controls": [
+                    {
+                      "description": "Maintain a model validation procedure applying effective challenge — objective reviewers with appropriate expertise, sufficient independence for objectivity, and standing to effect change; scale rigor to model materiality.",
+                      "type": "REVIEW",
+                      "status": "VALIDATED",
+                      "validated_by": "Chief Risk Officer",
+                      "validated_at": "2026-09-01T10:00:00Z"
+                    }
+                  ]
+                },
+                {
+                  "text": "Validation should include outcomes analysis — comparing model outputs to real-world outcomes (e.g., back-testing or outlier analysis) — to evaluate performance against objectives and business use.",
+                  "mandatory": true,
+                  "rationale": "Performance assessment ensures models produce reliable outputs and reveals deterioration over time.",
+                  "controls": [
+                    {
+                      "description": "Implement back-testing procedures comparing model predictions to actual outcomes; document and report results quarterly.",
+                      "type": "TECHNICAL",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "2.5",
+              "text": "Model inventory and documentation",
+              "requirements": [
+                {
+                  "text": "Maintain a model inventory with sufficient information to understand model risks at the individual and aggregate level, with detail tailored to model complexity and overall model usage.",
+                  "mandatory": true,
+                  "rationale": "An inventory sized to actual usage underpins effective model risk management without mandating a single format.",
+                  "controls": [
+                    {
+                      "description": "Maintain a central model inventory system tracking all models, their purpose, tier classification, validation status, and last review date.",
+                      "type": "DOCUMENTATION",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Section 3",
+          "text": "Model implementation and use",
+          "sections": [
+            {
+              "number": "3.2",
+              "text": "Implementation procedures",
+              "requirements": [
+                {
+                  "text": "Before a model is deployed, the organization should confirm that the model functions as intended.",
+                  "mandatory": true,
+                  "rationale": "Pre-deployment verification prevents operational errors.",
+                  "controls": [
+                    {
+                      "description": "Implement pre-deployment checklists verifying data feeds, integration points, user training, and monitoring procedures are all operational.",
+                      "type": "PROCESS",
+                      "status": "VALIDATED",
+                      "validated_by": "Chief Risk Officer",
+                      "validated_at": "2026-09-01T10:00:00Z"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

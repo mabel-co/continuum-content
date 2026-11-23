@@ -1,0 +1,251 @@
+{
+  "set": "iso-42001",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "ISO 42001",
+      "jurisdiction": "International",
+      "version": "42001:2023",
+      "effective_date": "2023-12-01",
+      "status": "ACTIVE",
+      "source_url": "https://www.iso.org/standard/81594.html",
+      "description": "AI management system — international standard for AI governance",
+      "titles": [
+        {
+          "number": "Clause 4",
+          "text": "Context of the organisation",
+          "sections": [
+            {
+              "number": "4.1",
+              "text": "Understanding the organisation and its context",
+              "requirements": [
+                {
+                  "text": "Identify the internal and external matters that shape the AI management system and affect what it is meant to achieve.",
+                  "mandatory": true,
+                  "rationale": "Understanding context ensures the AIS addresses relevant risks and opportunities.",
+                  "controls": [
+                    {
+                      "description": "Conduct an annual analysis of internal/external context factors affecting AI governance; document and review at management review.",
+                      "type": "REVIEW",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Clause 5",
+          "text": "Leadership",
+          "sections": [
+            {
+              "number": "5.1",
+              "text": "Leadership and commitment",
+              "requirements": [
+                {
+                  "text": "Senior leadership must own the AI management system: set and communicate the AI policy, assign roles, and show the system is directed from the top.",
+                  "mandatory": true,
+                  "rationale": "Leadership commitment is foundational to effective AI governance.",
+                  "controls": [
+                    {
+                      "description": "Secure board-level sponsorship of the AIS; include AI governance in the organisation's strategic planning and resource allocation.",
+                      "type": "PROCESS",
+                      "status": "PENDING"
+                    }
+                  ]
+                },
+                {
+                  "text": "Leadership must ensure the organisation sets AI policy and measurable AI objectives that fit what the business is actually trying to do.",
+                  "mandatory": true,
+                  "rationale": "AI policy must align with business strategy to be effective.",
+                  "controls": [
+                    {
+                      "description": "Maintain a written AI policy approved by top management; establish measurable AI objectives; review annually.",
+                      "type": "DOCUMENTATION",
+                      "status": "VALIDATED",
+                      "validated_by": "Compliance Lead",
+                      "validated_at": "2026-09-01T10:00:00Z"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Clause 6",
+          "text": "Planning",
+          "sections": [
+            {
+              "number": "6.1",
+              "text": "Actions to address risks and opportunities",
+              "requirements": [
+                {
+                  "text": "Before planning changes to the AIS, weigh the context issues (4.1) and interested-party requirements (4.2) and decide which risks and opportunities must be acted on.",
+                  "mandatory": true,
+                  "rationale": "Risk-based planning ensures proactive rather than reactive AI governance.",
+                  "controls": [
+                    {
+                      "description": "Maintain a risk register for AI-related risks; perform risk assessments before deploying new AI systems; document mitigation strategies.",
+                      "type": "REVIEW",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "6.2",
+              "text": "AI objectives and planning",
+              "requirements": [
+                {
+                  "text": "Set measurable AI objectives wherever AI activities are managed, and keep them reviewable.",
+                  "mandatory": true,
+                  "rationale": "Clear objectives enable measurable AI governance.",
+                  "controls": [
+                    {
+                      "description": "Establish SMART AI objectives at department level; track progress quarterly; report to management.",
+                      "type": "PROCESS",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Clause 7",
+          "text": "Support",
+          "sections": [
+            {
+              "number": "7.2",
+              "text": "Competence",
+              "requirements": [
+                {
+                  "text": "Decide what people running AI work must be able to do, verify they can do it, and keep the evidence.",
+                  "mandatory": true,
+                  "rationale": "AI competence ensures proper system design, deployment, and monitoring.",
+                  "controls": [
+                    {
+                      "description": "Define competency requirements for all AI-related roles; maintain training records; conduct annual skills assessments.",
+                      "type": "REVIEW",
+                      "status": "VALIDATED",
+                      "validated_by": "Compliance Lead",
+                      "validated_at": "2026-09-01T10:00:00Z"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Clause 8",
+          "text": "Operation",
+          "sections": [
+            {
+              "number": "8.1",
+              "text": "Operational planning and control",
+              "requirements": [
+                {
+                  "text": "Plan, run and monitor the processes the AIS needs — including AI-specific risk and opportunity controls — and keep them under control.",
+                  "mandatory": true,
+                  "rationale": "Operational control ensures AI systems are managed throughout their lifecycle.",
+                  "controls": [
+                    {
+                      "description": "Implement documented operational procedures for AI system lifecycle: design, development, testing, deployment, monitoring, decommissioning.",
+                      "type": "PROCESS",
+                      "status": "DRAFT"
+                    }
+                  ]
+                },
+                {
+                  "text": "Put validation and verification into the AI lifecycle so systems behave as specified.",
+                  "mandatory": true,
+                  "rationale": "Validation ensures AI systems perform as intended.",
+                  "controls": [
+                    {
+                      "description": "Establish validation protocols for all AI systems before deployment; conduct periodic re-validation; document results.",
+                      "type": "TECHNICAL",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Clause 9",
+          "text": "Performance evaluation",
+          "sections": [
+            {
+              "number": "9.1",
+              "text": "Monitoring, measurement, analysis and evaluation",
+              "requirements": [
+                {
+                  "text": "Define what to measure for AIS performance and conformity, how, when, and who does it.",
+                  "mandatory": true,
+                  "rationale": "Systematic monitoring ensures continuous compliance and performance.",
+                  "controls": [
+                    {
+                      "description": "Define KPIs and KRIs for AI system performance; establish monitoring cadence (at minimum quarterly); assign monitoring responsibilities.",
+                      "type": "MONITORING",
+                      "status": "VALIDATED",
+                      "validated_by": "Compliance Lead",
+                      "validated_at": "2026-09-01T10:00:00Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "9.3",
+              "text": "Management review",
+              "requirements": [
+                {
+                  "text": "Review the AIS at planned intervals from the top to confirm it stays suitable, adequate and effective.",
+                  "mandatory": true,
+                  "rationale": "Management review ensures AIS remains suitable, adequate, and effective.",
+                  "controls": [
+                    {
+                      "description": "Conduct formal management reviews of the AIS at least annually; document findings, decisions, and action items.",
+                      "type": "REVIEW",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Clause 10",
+          "text": "Improvement",
+          "sections": [
+            {
+              "number": "10.1",
+              "text": "Nonconformity and corrective action",
+              "requirements": [
+                {
+                  "text": "When AI governance fails to conform, react, correct, and stop it recurring.",
+                  "mandatory": true,
+                  "rationale": "Corrective action prevents recurrence of AI governance failures.",
+                  "controls": [
+                    {
+                      "description": "Maintain a nonconformity and corrective action process for AI governance issues; track remediation to closure; report trends to management.",
+                      "type": "PROCESS",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

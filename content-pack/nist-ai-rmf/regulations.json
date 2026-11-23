@@ -1,0 +1,107 @@
+{
+  "set": "nist-ai-rmf",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "NIST AI RMF 1.0",
+      "jurisdiction": "US",
+      "version": "AI RMF 1.0",
+      "effective_date": "2023-01-11",
+      "status": "ACTIVE",
+      "source_url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "description": "NIST AI Risk Management Framework 1.0: voluntary guidance organised around four functions - Govern, Map, Measure and Manage - for embedding trustworthy AI in organisational risk processes",
+      "titles": [
+        {
+          "number": "Core",
+          "text": "Functions for managing AI risk",
+          "sections": [
+            {
+              "number": "Function 1",
+              "text": "Govern - organisational culture and accountability",
+              "requirements": [
+                {
+                  "text": "The organisation establishes and communicates its role, responsibilities and accountabilities for managing AI risk, and builds a culture for trustworthy AI including risk management strategy and inventory.",
+                  "mandatory": true,
+                  "rationale": "Accountability and culture are the foundation the other three functions depend on.",
+                  "controls": [
+                    {
+                      "description": "Maintain an AI risk management policy naming accountable roles and a current inventory of AI systems.",
+                      "type": "DOCUMENTATION",
+                      "status": "VALIDATED",
+                      "validated_by": "Head of Model Risk",
+                      "validated_at": "2026-07-01T09:00:00Z"
+                    },
+                    {
+                      "description": "Review AI accountability and risk appetite with leadership on a defined cadence.",
+                      "type": "PROCESS",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Function 2",
+              "text": "Map - context and requirements",
+              "requirements": [
+                {
+                  "text": "The organisation contextualises its use of AI to understand the environment, needs and expectations of stakeholders, identifying and documenting risks associated with each AI system.",
+                  "mandatory": true,
+                  "rationale": "Risks cannot be measured or managed before the context they sit in is mapped.",
+                  "controls": [
+                    {
+                      "description": "Document intended purpose, users and stakeholders for every AI system before deployment.",
+                      "type": "DOCUMENTATION",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Function 3",
+              "text": "Measure - performance and trustworthiness",
+              "requirements": [
+                {
+                  "text": "The organisation develops and implements quantitative and qualitative measures of AI system performance, including effectiveness, safety and reliability.",
+                  "mandatory": true,
+                  "rationale": "Measurement turns identified risk into evidence that can be acted on.",
+                  "controls": [
+                    {
+                      "description": "Define and track measurable trustworthiness characteristics for each AI system, tested before and after deployment.",
+                      "type": "TESTING",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Function 4",
+              "text": "Manage - mitigation and monitoring",
+              "requirements": [
+                {
+                  "text": "The organisation prioritises and implements risk responses, including treatment and mitigation, and monitors AI risks continuously across the system lifecycle.",
+                  "mandatory": true,
+                  "rationale": "Management closes the loop from identified and measured risk back into governance.",
+                  "controls": [
+                    {
+                      "description": "Maintain a risk treatment register for AI systems with owners, due dates and continuous monitoring triggers.",
+                      "type": "MONITORING",
+                      "status": "PENDING"
+                    },
+                    {
+                      "description": "Trigger reassessment when incidents, model changes or context changes alter the measured risk profile.",
+                      "type": "PROCESS",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

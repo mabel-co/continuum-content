@@ -1,0 +1,9 @@
+{
+  "set": "eba-ai-guidelines",
+  "schema_version": 1,
+  "items": {
+    "eba-ai-guidelines::section-ict-risk": "The EBA's ICT and security risk management guidelines set out a framework of processes and controls that financial entities operate across the lifecycle of their ICT systems, including AI components used in their services. Coverage spans security, operational resilience and the mapping of ICT dependencies.",
+    "eba-ai-guidelines::section-outsourcing": "Where an AI service is provided by a third party, EBA expectations for institutional arrangements travel with two frameworks: the ICT and security risk management guidelines for ICT-dependent services, and the guidelines on the sound management of third-party risk related to non-ICT services for the rest — the successors to the repealed 2019 outsourcing guidelines. Entities handle critical or important functions, which AI model providers may fall under, with due diligence, contractual protections and exit strategies.",
+    "eba-ai-guidelines::section-credit-scoring": "The EBA's report on artificial intelligence and machine-learning models used in credit scoring examines how AI/ML enters credit decisions and recommends governance practices for these models. It grounds those recommendations in the EU legal framework for credit assessment and model governance."
+  }
+}

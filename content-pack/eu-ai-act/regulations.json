@@ -1,0 +1,122 @@
+{
+  "set": "eu-ai-act",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "EU AI Act",
+      "jurisdiction": "EU",
+      "version": "2024/1689",
+      "effective_date": "2024-08-01",
+      "status": "ACTIVE",
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "description": "Regulation on artificial intelligence — high-risk AI systems provisions (Chapters III–VI)",
+      "titles": [
+        {
+          "number": "Title III",
+          "text": "Requirements for High-Risk AI Systems",
+          "sections": [
+            {
+              "number": "Article 10",
+              "text": "Quality of data sets",
+              "requirements": [
+                {
+                  "text": "High-risk AI systems shall be developed using data sets that are relevant, representative, and free of errors for the intended purpose.",
+                  "mandatory": true,
+                  "rationale": "Data quality directly impacts AI system safety and fundamental rights compliance.",
+                  "controls": [
+                    {
+                      "description": "Implement data quality assessment procedures before model training, documenting source, completeness, and bias analysis of training datasets.",
+                      "type": "PROCESS",
+                      "status": "DRAFT"
+                    }
+                  ]
+                },
+                {
+                  "text": "Data governance and management procedures shall be implemented for high-risk AI systems.",
+                  "mandatory": true,
+                  "rationale": "Ongoing data governance ensures continued compliance throughout the system lifecycle.",
+                  "controls": [
+                    {
+                      "description": "Establish a data governance board with documented procedures for data selection, validation, and ongoing monitoring.",
+                      "type": "PROCESS",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Article 15",
+              "text": "Accuracy, robustness and cybersecurity",
+              "requirements": [
+                {
+                  "text": "High-risk AI systems shall achieve an appropriate level of accuracy, robustness and cybersecurity throughout their life cycle.",
+                  "mandatory": true,
+                  "rationale": "System accuracy and robustness are essential for protecting fundamental rights.",
+                  "controls": [
+                    {
+                      "description": "Establish and document accuracy thresholds for the intended purpose; perform ongoing testing against these thresholds.",
+                      "type": "TECHNICAL",
+                      "status": "DRAFT"
+                    },
+                    {
+                      "description": "Implement cybersecurity controls (access controls, encryption, intrusion detection) appropriate to the system's risk profile.",
+                      "type": "TECHNICAL",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Article 19",
+              "text": "Transparency and provision of information",
+              "requirements": [
+                {
+                  "text": "Providers shall design high-risk AI systems to enable natural persons to interpret the operation of the AI system.",
+                  "mandatory": true,
+                  "rationale": "Transparency enables users to make informed decisions about AI system outputs.",
+                  "controls": [
+                    {
+                      "description": "Provide clear documentation on system capabilities, limitations, and intended use cases to all end users.",
+                      "type": "DOCUMENTATION",
+                      "status": "VALIDATED",
+                      "validated_by": "Compliance Lead",
+                      "validated_at": "2026-09-01T10:00:00Z"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Title IV",
+          "text": "Obligations of providers of high-risk AI systems",
+          "sections": [
+            {
+              "number": "Article 52",
+              "text": "Obligations of providers — post-market monitoring",
+              "requirements": [
+                {
+                  "text": "Providers of high-risk AI systems shall implement a post-market monitoring system.",
+                  "mandatory": true,
+                  "rationale": "Continuous monitoring ensures ongoing compliance after deployment.",
+                  "controls": [
+                    {
+                      "description": "Deploy a post-market monitoring system collecting performance data, incident reports, and user feedback on an ongoing basis.",
+                      "type": "MONITORING",
+                      "status": "VALIDATED",
+                      "validated_by": "Compliance Lead",
+                      "validated_at": "2026-09-01T10:00:00Z"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

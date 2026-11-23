@@ -1,0 +1,100 @@
+{
+  "set": "japan-ai-gov",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "Japan AI Appropriateness Guideline",
+      "jurisdiction": "Japan",
+      "version": "AI-GL 2025",
+      "effective_date": "2025-12-19",
+      "status": "ACTIVE",
+      "source_url": "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_gl_2025.pdf",
+      "description": "Guideline for Ensuring the Appropriateness of Research, Development and Utilization of AI-Related Technology (AI Strategic Headquarters decision under Art. 13 of the AI Basic Act): voluntary, principle-based guidance for all stakeholders",
+      "titles": [
+        {
+          "number": "Part 1",
+          "text": "Basic approach to ensuring appropriateness",
+          "sections": [
+            {
+              "number": "Parts 1(1)-(3)",
+              "text": "Positioning, elements to consider, basic policies",
+              "requirements": [
+                {
+                  "text": "Organisations should take measures at a level appropriate to their position and to the AI's characteristics and risks, weighing the guideline's ten elements - human-centredness, fairness, safety, transparency, accountability, security, privacy and personal information, fair competition, AI literacy and innovation - under its four basic policies: risk-based approach, stakeholder involvement, end-to-end governance and agile PDCA.",
+                  "mandatory": true,
+                  "rationale": "The guideline deliberately fixes no absolute level of appropriateness; the elements and policies are the structured way an organisation shows it looked at the right things.",
+                  "controls": [
+                    {
+                      "description": "Record how each of the ten elements was weighed for AI systems in deployment, sized to their risk.",
+                      "type": "DOCUMENTATION",
+                      "status": "PENDING"
+                    },
+                    {
+                      "description": "Apply the four basic policies as standing criteria when approving AI projects and revisiting them in the PDCA cycle.",
+                      "type": "PROCESS",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Part 2",
+          "text": "Items for research and business entities",
+          "sections": [
+            {
+              "number": "Part 2(1)",
+              "text": "Ensuring appropriateness holistically through AI governance",
+              "requirements": [
+                {
+                  "text": "Entities that develop or use AI should build, operate and continuously improve AI governance across the whole lifecycle - design, development, provision and implementation - with processes to identify, evaluate and treat risk, monitoring and evaluation with management involvement, appropriate information disclosure, and education and training.",
+                  "mandatory": true,
+                  "rationale": "Lifecycle-wide governance with management visibility is the guideline's central ask of providers; existing IT governance may be leveraged rather than rebuilt.",
+                  "controls": [
+                    {
+                      "description": "Stand up an AI governance process spanning the lifecycle with named management accountability and a periodic review cadence.",
+                      "type": "PROCESS",
+                      "status": "PENDING"
+                    },
+                    {
+                      "description": "Maintain AI risk-identification and treatment registers with evidence of management review, and run role-appropriate AI education and training.",
+                      "type": "DOCUMENTATION",
+                      "status": "VALIDATED",
+                      "validated_by": "Chief AI Governance Officer",
+                      "validated_at": "2026-05-20T11:00:00Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Parts 2(2)-(5)",
+              "text": "Transparency, safety, continuity, data-holder consideration",
+              "requirements": [
+                {
+                  "text": "Providers should ensure transparency to build trust - reasonable explainability of training-data provenance and outputs, and disclosure of an AI system's mechanics, limits, prohibited uses, data-collection policy and output-reliability cautions when providing it - secure sufficient safety through technical means such as defences against misjudgement and hallucination, maintain a safe environment through business-continuity measures, and show consideration for stakeholders such as data holders.",
+                  "mandatory": true,
+                  "rationale": "These are the provider-side items the applicability rules group as transparency-and-safety: what an organisation tells stakeholders and how it keeps the system dependable.",
+                  "controls": [
+                    {
+                      "description": "Publish user-facing documentation of system mechanics, limits, prohibited uses and data handling for each AI service offered.",
+                      "type": "DOCUMENTATION",
+                      "status": "PENDING"
+                    },
+                    {
+                      "description": "Apply technical safety measures proportionate to identified failure modes - including misjudgement and hallucination defences - and cover AI-dependent processes in continuity planning.",
+                      "type": "TECHNICAL",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

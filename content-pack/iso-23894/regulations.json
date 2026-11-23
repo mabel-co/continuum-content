@@ -1,0 +1,97 @@
+{
+  "set": "iso-23894",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "ISO/IEC 23894",
+      "jurisdiction": "International",
+      "version": "23894:2023",
+      "effective_date": "2024-01-01",
+      "status": "ACTIVE",
+      "source_url": "https://www.iso.org/standard/84936.html",
+      "description": "AI-specific risk-management guidance aligned with ISO 31000 — the methodology ISO 42001 clause 6 points to for running the four-stage risk process (identify, assess, treat, monitor) across an AI system's lifecycle.",
+      "titles": [
+        {
+          "number": "Clause 6",
+          "text": "Risk management",
+          "sections": [
+            {
+              "number": "Section 1",
+              "text": "Risk identification",
+              "requirements": [
+                {
+                  "text": "Work out where the AI system could go wrong: involve the people who build, operate and are affected by it, fix the scope and risk criteria, and identify risks across the system's lifecycle.",
+                  "mandatory": false,
+                  "rationale": "Identification aligned with ISO 31000 general risk-management principles keeps the AI risk inventory grounded in who actually touches the system.",
+                  "controls": [
+                    {
+                      "description": "Run lifecycle risk-identification workshops with builders, operators and affected-party representatives; record scope, criteria and resulting risks in the AI risk register.",
+                      "type": "REVIEW",
+                      "status": "VALIDATED",
+                      "validated_by": "Head of Model Risk",
+                      "validated_at": "2026-07-01T09:00:00Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Section 2",
+              "text": "Risk assessment",
+              "requirements": [
+                {
+                  "text": "Analyse and evaluate the identified AI risks — how likely they are and how severe their consequences could be — using established risk-assessment methods adapted to AI systems.",
+                  "mandatory": false,
+                  "rationale": "Assessment turns a risk list into a prioritised one; methods borrowed from general frameworks need adapting to AI-specific failure modes.",
+                  "controls": [
+                    {
+                      "description": "Score each identified AI risk for likelihood and impact using a documented AI-adapted method; review the scoring with a second assessor.",
+                      "type": "REVIEW",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Section 3",
+              "text": "Risk treatment",
+              "requirements": [
+                {
+                  "text": "Decide how to respond to each evaluated AI risk — avoid, mitigate, transfer or accept it — so the chosen treatment is deliberate and traceable back to the assessment.",
+                  "mandatory": false,
+                  "rationale": "Traceable treatment decisions prevent silent acceptance of AI risks nobody consciously took on.",
+                  "controls": [
+                    {
+                      "description": "Record a treatment decision (avoid, mitigate, transfer, accept) with owner and rationale for every evaluated AI risk; link mitigations to the controls that implement them.",
+                      "type": "DOCUMENTATION",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Section 4",
+              "text": "Risk monitoring and review",
+              "requirements": [
+                {
+                  "text": "Keep watching AI risks throughout the system's lifecycle and review whether the treatments are working, feeding what you learn back into the risk process.",
+                  "mandatory": false,
+                  "rationale": "AI systems drift; monitoring closes the loop so the risk process stays current rather than a one-off exercise.",
+                  "controls": [
+                    {
+                      "description": "Monitor treated AI risks against their treatment effectiveness on a scheduled cadence; report changes to management review and re-enter the identification stage when new risks emerge.",
+                      "type": "MONITORING",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

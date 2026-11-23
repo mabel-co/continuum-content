@@ -1,0 +1,141 @@
+{
+  "set": "sg-mgf-agentic",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "Singapore MGF for Agentic AI",
+      "jurisdiction": "Singapore",
+      "version": "MGF Agentic v1.5",
+      "effective_date": "2026-05-20",
+      "status": "ACTIVE",
+      "source_url": "https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-research/artificial-intelligence/mgf-for-agentic-ai.pdf",
+      "description": "Model AI Governance Framework for Agentic AI (IMDA, Version 1.5): voluntary guidance on trustworthy deployment of agentic AI - systems that plan, decide and act over multiple steps",
+      "titles": [
+        {
+          "number": "Part 1",
+          "text": "Introduction to agentic AI",
+          "sections": [
+            {
+              "number": "Sections 1.1-1.2",
+              "text": "What agentic AI is and where its risks arise",
+              "requirements": [
+                {
+                  "text": "An organisation deploying agentic AI - software systems of one or more AI agents with independent planning, decision-making and action over multiple steps toward a user-defined goal - should document the agent's core components (model, planning and reasoning, instructions, tools, memory) and the safety, reliability and logging controls added around them, and map where risks arise, including systemic and multi-agent risks.",
+                  "mandatory": true,
+                  "rationale": "Knowing what each agent is built from and where its behaviour can go wrong is the precondition for governing it; the framework treats this mapping as the shared starting point for all four dimensions.",
+                  "controls": [
+                    {
+                      "description": "Maintain a current component and risk map for each agentic system in production, revisited when the agent design, its tools or its model change.",
+                      "type": "DOCUMENTATION",
+                      "status": "PENDING"
+                    },
+                    {
+                      "description": "Review multi-agent and systemic risk exposure when agents act on shared state, tools or downstream systems.",
+                      "type": "REVIEW",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Part 2",
+          "text": "Four dimensions for trustworthy deployment",
+          "sections": [
+            {
+              "number": "Dimension 1",
+              "text": "Assess and bound the risks upfront",
+              "requirements": [
+                {
+                  "text": "Determine suitable use cases for agent deployment and bound risk through design: define each agent's limits and permissions, judging risk by the scope and reversibility of its actions and its autonomy level, with system complexity and third-party components as additional factors.",
+                  "mandatory": true,
+                  "rationale": "Bounding by design keeps the agent inside a space where failures stay recoverable; the framework's first dimension is where that boundary gets set.",
+                  "controls": [
+                    {
+                      "description": "Record a use-case suitability and risk assessment before deploying an agent, covering action scope, reversibility and autonomy.",
+                      "type": "REVIEW",
+                      "status": "PENDING"
+                    },
+                    {
+                      "description": "Define and enforce per-agent permission and action limits in the system design, sized to the assessment.",
+                      "type": "TECHNICAL",
+                      "status": "VALIDATED",
+                      "validated_by": "Head of AI Assurance",
+                      "validated_at": "2026-06-15T10:00:00Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Dimension 2",
+              "text": "Make humans meaningfully accountable",
+              "requirements": [
+                {
+                  "text": "Allocate responsibilities clearly within and outside the organisation across the agentic AI value chain - separating platform providers from system providers and app developers - and design for meaningful human oversight, with significant checkpoints requiring human approval for high-stakes or irreversible actions.",
+                  "mandatory": true,
+                  "rationale": "Accountability has to name a person, and oversight has to land where it changes outcomes; checkpoints and role allocation are the framework's levers for both.",
+                  "controls": [
+                    {
+                      "description": "Document the responsibility split across the value chain for each agentic deployment, including external providers.",
+                      "type": "DOCUMENTATION",
+                      "status": "PENDING"
+                    },
+                    {
+                      "description": "Insert human approval checkpoints ahead of irreversible or high-stakes agent actions and monitor override rates to guard against automation bias.",
+                      "type": "MONITORING",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Dimension 3",
+              "text": "Implement technical controls and processes",
+              "requirements": [
+                {
+                  "text": "Apply technical controls across the agent lifecycle: structural, rule-based and prompt-layer controls on agentic components during design and development; pre-deployment testing for baseline safety and reliability including execution accuracy, policy adherence and tool use; and gradual rollout with continuous monitoring and change management sized so small changes cannot have outsized effects.",
+                  "mandatory": true,
+                  "rationale": "This dimension is where the framework's guidance meets buildable evidence: controls, tests and rollout gates are what an auditor can actually inspect.",
+                  "controls": [
+                    {
+                      "description": "Run documented pre-deployment test suites covering execution accuracy, policy adherence and tool use before an agent reaches users.",
+                      "type": "TESTING",
+                      "status": "PENDING"
+                    },
+                    {
+                      "description": "Operate continuous post-deployment monitoring and staged rollout with change management that bounds the blast radius of each change.",
+                      "type": "MONITORING",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Dimension 4",
+              "text": "Enable end-user responsibility",
+              "requirements": [
+                {
+                  "text": "Ensure end users are informed of an agent's range of actions, the data it can access and their own responsibilities, and provide layered training for users who integrate agents into work processes, addressing loss of tradecraft and business-continuity effects of over-reliance.",
+                  "mandatory": true,
+                  "rationale": "Trustworthy deployment is shared with the people directing agents; informed users with maintained skills are the framework's fourth pillar.",
+                  "controls": [
+                    {
+                      "description": "Publish plain-language guidance to users on what each agent can do, what data it reaches and what stays the user's call.",
+                      "type": "PROCESS",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

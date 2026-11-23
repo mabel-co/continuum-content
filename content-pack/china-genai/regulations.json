@@ -1,0 +1,89 @@
+{
+  "set": "china-genai",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "China Generative AI Measures",
+      "jurisdiction": "China",
+      "version": "Order No. 15",
+      "effective_date": "2023-08-15",
+      "status": "ACTIVE",
+      "source_url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+      "description": "Measures for the Management of Generative Artificial Intelligence Services (CAC et al., Order No. 15): binding requirements for providers of generative AI services to the Chinese public",
+      "titles": [
+        {
+          "number": "Section II",
+          "text": "Service provider obligations",
+          "sections": [
+            {
+              "number": "Arts. 7-8",
+              "text": "Training data governance",
+              "requirements": [
+                {
+                  "text": "A provider of generative AI services available to the public in China must use training data that complies with Chinese law, respects intellectual property and contains no illegal content, and must label training data as required.",
+                  "mandatory": true,
+                  "rationale": "Training-data legality is the anchor duty of the Measures: defects here propagate into every output the service produces.",
+                  "controls": [
+                    {
+                      "description": "Keep evidence of training-data provenance and legality review, including intellectual-property checks, for each model offered in the Chinese market.",
+                      "type": "DOCUMENTATION",
+                      "status": "PENDING"
+                    },
+                    {
+                      "description": "Screen and remove illegal content from corpora before training and re-check on corpus updates.",
+                      "type": "PROCESS",
+                      "status": "VALIDATED",
+                      "validated_by": "Head of Data Governance",
+                      "validated_at": "2026-07-01T09:30:00Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Arts. 4, 12",
+              "text": "Content labelling and security assessment",
+              "requirements": [
+                {
+                  "text": "The provider must label AI-generated content, including outputs of deep-synthesis services, and complete a security assessment before releasing the service to the public.",
+                  "mandatory": true,
+                  "rationale": "Labelling and pre-release assessment are how the regulator traces content back to the service and the service proves it screened risk before launch.",
+                  "controls": [
+                    {
+                      "description": "Apply machine-readable labels to generated content and retain the pre-release security assessment report.",
+                      "type": "TECHNICAL",
+                      "status": "PENDING"
+                    },
+                    {
+                      "description": "Gate public release on a completed and signed-off content-security assessment.",
+                      "type": "REVIEW",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Arts. 17, 19",
+              "text": "Algorithm filing and inspection",
+              "requirements": [
+                {
+                  "text": "Providers whose generative AI service can influence public opinion or social mobilisation must file the algorithm with the cyberspace administration and comply with the filing process, including cooperating with inspections.",
+                  "mandatory": true,
+                  "rationale": "The filing is the regulator's standing window into the service; keeping it current and inspectable is the compliance surface.",
+                  "controls": [
+                    {
+                      "description": "File the algorithm with the competent authority, keep the filing current after material changes, and log inspection requests and responses.",
+                      "type": "PROCESS",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

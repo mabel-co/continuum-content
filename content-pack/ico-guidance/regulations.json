@@ -1,0 +1,97 @@
+{
+  "set": "ico-guidance",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "ICO AI & Data Protection Guidance",
+      "jurisdiction": "UK",
+      "version": "v1",
+      "effective_date": "2026-08-26",
+      "status": "ACTIVE",
+      "source_url": "https://www.informationstandardscentre.org/standards/10004092/",
+      "description": "ICO guidance on AI and data protection: DPIAs, automated decision-making, transparency and bias, applied to AI systems that process personal data",
+      "titles": [
+        {
+          "number": "Guidance",
+          "text": "AI and data protection",
+          "sections": [
+            {
+              "number": "Section 1",
+              "text": "Data protection impact assessments",
+              "requirements": [
+                {
+                  "text": "Organisations using AI systems that process personal data conduct Data Protection Impact Assessments to identify and mitigate data protection risks before deploying the system.",
+                  "mandatory": true,
+                  "rationale": "A DPIA is the trigger point where AI data-protection risk must be confronted, per UK GDPR Article 35.",
+                  "controls": [
+                    {
+                      "description": "Complete and file a DPIA for every AI system processing personal data before first use; refresh it on material change.",
+                      "type": "DOCUMENTATION",
+                      "status": "VALIDATED",
+                      "validated_by": "Head of Model Risk",
+                      "validated_at": "2026-07-01T09:00:00Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Section 2",
+              "text": "Automated decision-making and profiling",
+              "requirements": [
+                {
+                  "text": "AI systems making or informing automated individual decisions comply with UK GDPR provisions on automated decision-making, including the right to human review and meaningful information about the logic involved.",
+                  "mandatory": true,
+                  "rationale": "Individual rights attach to consequential automated decisions regardless of the technique behind them.",
+                  "controls": [
+                    {
+                      "description": "Provide a human-review route and a meaningful logic explanation for solely automated decisions affecting individuals.",
+                      "type": "PROCESS",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Section 3",
+              "text": "Transparency",
+              "requirements": [
+                {
+                  "text": "Organisations are transparent about the use of AI in processing personal data, giving data subjects clear information about automated decision-making at the point of collection.",
+                  "mandatory": false,
+                  "rationale": "Transparency obligations are not diluted by the complexity of the underlying model.",
+                  "controls": [
+                    {
+                      "description": "Update privacy notices to name AI processing purposes and automated decision logic in plain language.",
+                      "type": "DOCUMENTATION",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Section 4",
+              "text": "Bias and fairness",
+              "requirements": [
+                {
+                  "text": "AI systems processing personal data are designed and operated to avoid bias and ensure fair treatment, consistent with data protection principles.",
+                  "mandatory": false,
+                  "rationale": "Biased outputs can be inaccurate or unfairly discriminatory under data protection law.",
+                  "controls": [
+                    {
+                      "description": "Assess training data and outputs for bias against protected characteristics and document mitigations.",
+                      "type": "REVIEW",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

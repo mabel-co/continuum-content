@@ -1,0 +1,13 @@
+{
+  "set": "iso-42001",
+  "schema_version": 1,
+  "items": {
+    "iso-42001::clause-4": "Identify the internal and external matters that shape the AI management system and affect what it is meant to achieve.",
+    "iso-42001::clause-5": "Senior leadership must own the AI management system — set and communicate the AI policy and assign who is responsible and accountable.",
+    "iso-42001::clause-6": "Before planning changes to the AIS, weigh the context issues (4.1) and interested-party requirements (4.2), decide which risks and opportunities to act on, fold AI risk into the firm's overall risk process, and set measurable AI objectives.",
+    "iso-42001::clause-7": "Provide the resources the AI management system needs — including managing data quality, competence, awareness and communication.",
+    "iso-42001::clause-8": "Plan, run and control the processes the AI system lifecycle needs, including deliberately introducing new AI systems, and keep the records the system requires.",
+    "iso-42001::clause-9": "Check how the AI systems and the management system itself are performing — with planned internal audits and top-management review.",
+    "iso-42001::clause-10": "Keep making the AI management system better suited, adequate and effective — correcting failures to conform and acting on them."
+  }
+}

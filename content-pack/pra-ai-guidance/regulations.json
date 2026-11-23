@@ -1,0 +1,113 @@
+{
+  "set": "pra-ai-guidance",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "PRA Model Risk Management (SS1/23)",
+      "jurisdiction": "UK",
+      "version": "SS1/23",
+      "effective_date": "2023-05-17",
+      "status": "ACTIVE",
+      "source_url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2023/may/model-risk-management-principles-for-banks-ss",
+      "description": "PRA Supervisory Statement SS1/23: model risk management principles for banks, building societies and PRA-designated investment firms, including models built with AI and machine-learning techniques",
+      "titles": [
+        {
+          "number": "Governance",
+          "text": "Model risk governance and accountability",
+          "sections": [
+            {
+              "number": "Section 1",
+              "text": "Model inventory and identification",
+              "requirements": [
+                {
+                  "text": "Every model used in prudential decision-making sits in a firm-wide, documented model inventory - including models built with AI or machine-learning techniques, in-house or third-party - with risk-based tiering by materiality and complexity driving validation effort.",
+                  "mandatory": true,
+                  "rationale": "Tiering keeps validation proportionate; unlisted models are ungoverned risk.",
+                  "controls": [
+                    {
+                      "description": "Maintain the firm-wide model inventory with materiality and complexity tiering applied to AI/ML models.",
+                      "type": "DOCUMENTATION",
+                      "status": "VALIDATED",
+                      "validated_by": "Head of Model Risk",
+                      "validated_at": "2026-07-01T09:00:00Z"
+                    },
+                    {
+                      "description": "Identify and classify new or changed models, including third-party AI, before prudential use.",
+                      "type": "PROCESS",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Section 2",
+              "text": "Board and senior responsibility",
+              "requirements": [
+                {
+                  "text": "The board exercises oversight of model risk, approves the model governance framework and ensures adequate resources for model risk management; firms maintain clear ownership and accountability for AI/ML models used in prudentially relevant activities.",
+                  "mandatory": true,
+                  "rationale": "SS1/23 places ultimate responsibility for model risk with the governing body.",
+                  "controls": [
+                    {
+                      "description": "Report model risk profile, material model exceptions and framework changes to the board at least annually.",
+                      "type": "REVIEW",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Controls",
+          "text": "Validation, documentation and resilience",
+          "sections": [
+            {
+              "number": "Section 3",
+              "text": "Independent validation and verification",
+              "requirements": [
+                {
+                  "text": "AI/ML models undergo independent validation and verification, with documented evidence of model performance, limitations and appropriateness for purpose.",
+                  "mandatory": true,
+                  "rationale": "Independence is the check that developer optimism does not become firm risk.",
+                  "controls": [
+                    {
+                      "description": "Validate models independently of their developers before deployment and on change, recording performance, limitations and suitability.",
+                      "type": "REVIEW",
+                      "status": "PENDING"
+                    },
+                    {
+                      "description": "Keep development documentation sufficient for an independent reviewer to reproduce model behaviour.",
+                      "type": "DOCUMENTATION",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Section 4",
+              "text": "Outcomes and stress testing",
+              "requirements": [
+                {
+                  "text": "Models are assessed on their impact on business outcomes and tested under stress scenarios to evaluate resilience, with mitigants and controls documented for identified model risk.",
+                  "mandatory": false,
+                  "rationale": "Outcome-focused testing surfaces model failure modes that input-focused validation misses.",
+                  "controls": [
+                    {
+                      "description": "Stress-test material models and document outcome impacts, mitigants and contingency actions.",
+                      "type": "TESTING",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

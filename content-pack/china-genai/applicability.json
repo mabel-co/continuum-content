@@ -1,0 +1,9 @@
+{
+  "set": "china-genai",
+  "schema_version": 1,
+  "items": {
+    "china-genai::section-1-training-data": "China's Measures for the Management of Generative Artificial Intelligence Services (CAC and seven co-issuing departments, Order No. 15, effective 15 August 2023) require providers serving the public in mainland China to run training-data processing lawfully: use data and base models from lawful sources, avoid infringing intellectual property, hold a lawful basis where personal information is involved, and take effective measures to raise the quality, authenticity, accuracy, objectivity and diversity of training data. Article 8 adds labelling-rule, labelling-quality and labeler-training duties where training data is labelled.",
+    "china-genai::section-2-content-labelling-and-security-assessment": "Under China's Generative AI Measures, providers label generated images, videos and other content in line with the Deep Synthesis Provisions (Article 12), and the Article 4 duties sit behind it: no illegal content, effective measures against discrimination across algorithm design, training-data selection, generation and service, respect for intellectual property and others' lawful rights, and steps to raise the transparency, accuracy and reliability of what the service generates.",
+    "china-genai::section-3-algorithm-filing": "China's Generative AI Measures tie market access to pre-service procedure: a provider of generative AI services with public-opinion attributes or social-mobilisation capability carries out a security assessment under relevant national rules and completes algorithm filing — with change and cancellation filings — under the Internet Information Service Algorithmic Recommendation Provisions (Article 17). Article 19 adds cooperation with regulator inspections: explaining training-data sources, scale, types, labelling rules and algorithm mechanics, and providing technical support."
+  }
+}

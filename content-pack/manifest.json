@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "derivation_note": "Per-item derivation is recorded as own-language: the authoritative text of every source remains the version published by its regulator. Reuse of each set is governed by its licence basis below.",
+  "sets": {
+    "eu-ai-act": {
+      "title": "EU AI Act",
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "licence_basis": "EU-reuse-2011/833",
+      "attribution": "Contains our own-language mapping summaries derived from Regulation (EU) 2024/1689 of the European Parliament and of the Council (the 'AI Act'). The authoritative text is the version published on EUR-Lex; reuse of Union legal documents is governed by Commission Decision 2011/833/EU, and nothing in this set republishes the Official Journal text.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-08",
+      "files": [
+        "eu-ai-act/applicability.json",
+        "eu-ai-act/regulations.json"
+      ]
+    },
+    "us-sr": {
+      "title": "SR 26-2",
+      "source_url": "https://www.federalreserve.gov/supervisionreg/srletters/SR2602.htm",
+      "licence_basis": "public-domain-US-gov",
+      "attribution": "Contains our own-language mapping summaries derived from Federal Reserve Supervisory Letter SR 26-2 (supervisory guidance on model risk management, issued jointly with the FDIC and OCC). U.S. Government works are not subject to copyright under 17 U.S.C. 105; the authoritative letter text remains the version published on federalreserve.gov.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-08",
+      "files": [
+        "us-sr/regulations.json",
+        "us-sr/applicability.json"
+      ]
+    },
+    "eu-dora": {
+      "title": "EU DORA",
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj",
+      "licence_basis": "EU-reuse-2011/833",
+      "attribution": "Contains our own-language mapping summaries derived from Regulation (EU) 2022/2554 of the European Parliament and of the Council (the Digital Operational Resilience Act, 'DORA'). The authoritative text is the version published on EUR-Lex; reuse of Union legal documents is governed by Commission Decision 2011/833/EU, and nothing in this set republishes the Official Journal text.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-23",
+      "files": [
+        "eu-dora/applicability.json",
+        "eu-dora/regulations.json"
+      ]
+    },
+    "eu-gdpr": {
+      "title": "EU GDPR",
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "licence_basis": "EU-reuse-2011/833",
+      "attribution": "Contains our own-language mapping summaries derived from Regulation (EU) 2016/679 of the European Parliament and of the Council (the 'General Data Protection Regulation, GDPR'). The authoritative text is the version published on EUR-Lex; reuse of Union legal documents is governed by Commission Decision 2011/833/EU, and nothing in this set republishes the Official Journal text.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-24",
+      "files": [
+        "eu-gdpr/applicability.json",
+        "eu-gdpr/regulations.json"
+      ]
+    },
+    "eu-nis2": {
+      "title": "EU NIS2 Directive",
+      "source_url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj",
+      "licence_basis": "EU-reuse-2011/833",
+      "attribution": "Contains our own-language mapping summaries derived from Directive (EU) 2022/2555 of the European Parliament and of the Council (the 'NIS 2 Directive'). The authoritative text is the version published on EUR-Lex; reuse of Union legal documents is governed by Commission Decision 2011/833/EU, and nothing in this set republishes the Official Journal text.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-26",
+      "files": [
+        "eu-nis2/applicability.json",
+        "eu-nis2/regulations.json"
+      ]
+    },
+    "uk-fca": {
+      "title": "FCA Guidance on AI/ML",
+      "source_url": "https://www.fca.org.uk/publication/policy/fp-24-04.pdf",
+      "licence_basis": "OGL-3.0",
+      "attribution": "Contains our own-language mapping summaries derived from FCA Financial Policy Note 04/2024 (artificial intelligence and machine learning). Source material is Crown copyright; the Open Government Licence v3.0 terms apply to any material this mapping summarises, and the authoritative text remains the version published by the FCA.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-08",
+      "files": [
+        "uk-fca/applicability.json",
+        "uk-fca/regulations.json"
+      ]
+    },
+    "pra-ai-guidance": {
+      "title": "PRA Model Risk Management — SS1/23",
+      "source_url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2023/may/model-risk-management-principles-for-banks-ss",
+      "licence_basis": "OGL-3.0",
+      "attribution": "Contains our own-language mapping summaries derived from PRA Supervisory Statement SS1/23 — Model risk management principles for banks (May 2023, as amended by the April 2026 low-impact amendments), published with PS6/23, and the Bank/PRA/FCA feedback statement FS2/23 on AI and machine learning. Source material is Crown copyright; the Open Government Licence v3.0 terms apply to any material this mapping summarises, and the authoritative text remains the version published by the Bank of England.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-30",
+      "files": [
+        "pra-ai-guidance/applicability.json",
+        "pra-ai-guidance/regulations.json"
+      ]
+    },
+    "iso-42001": {
+      "title": "ISO 42001",
+      "source_url": "https://www.iso.org/standard/81594.html",
+      "licence_basis": "reference-only",
+      "attribution": "References ISO/IEC 42001:2023 (AI management system) by clause number only. ISO documents are copyrighted and licensed separately; this set embeds no ISO text and is provided as a reference pointer to the standard's abstract page for further information.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-08",
+      "files": [
+        "iso-42001/applicability.json",
+        "iso-42001/regulations.json"
+      ]
+    },
+    "iso-23894": {
+      "title": "ISO/IEC 23894",
+      "source_url": "https://www.iso.org/standard/84936.html",
+      "licence_basis": "reference-only",
+      "attribution": "References ISO/IEC 23894 (AI guidance on risk management) by clause number only. ISO documents are copyrighted and licensed separately; this set embeds no ISO text and is provided as a reference pointer to the standard's abstract page for further information.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-08",
+      "files": [
+        "iso-23894/applicability.json",
+        "iso-23894/regulations.json"
+      ]
+    },
+    "uk-ai-principles": {
+      "title": "UK AI White Paper — 5 Principles",
+      "source_url": "https://www.gov.uk/government/publications/ai-future-finding-the-right-time-to-act",
+      "licence_basis": "reference-only",
+      "attribution": "Contains our own-language summaries of the five cross-sector AI principles set out in UK Government publications on gov.uk. Source material is Crown copyright; the authoritative wording remains the version published on gov.uk and these pointers are provided for reference.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-08",
+      "files": [
+        "uk-ai-principles/applicability.json",
+        "uk-ai-principles/regulations.json"
+      ]
+    },
+    "ico-guidance": {
+      "title": "ICO AI & Data Protection Guidance",
+      "source_url": "https://www.informationstandardscentre.org/standards/10004092/",
+      "licence_basis": "reference-only",
+      "attribution": "Contains our own-language mapping summaries derived from ICO (Information Commissioner's Office) guidance on AI and data protection, in particular DPIAs and automated decision-making. Source material is Crown copyright; the authoritative text remains the version published by the regulator and these pointers are provided for reference.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-08",
+      "files": [
+        "ico-guidance/applicability.json",
+        "ico-guidance/regulations.json"
+      ]
+    },
+    "nist-ai-rmf": {
+      "title": "NIST AI RMF 1.0",
+      "source_url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "licence_basis": "reference-only",
+      "attribution": "Contains our own-language summaries of the NIST AI Risk Management Framework 1.0 functions (GOVERN, MAP, MEASURE, MANAGE). NIST publications are U.S. Government works not subject to copyright under 17 U.S.C. 105; the authoritative document remains the version published by NIST.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-08",
+      "files": [
+        "nist-ai-rmf/applicability.json",
+        "nist-ai-rmf/regulations.json"
+      ]
+    },
+    "iso-24027": {
+      "title": "ISO/IEC 24027",
+      "source_url": "https://www.iso.org/standard/79827.html",
+      "licence_basis": "reference-only",
+      "attribution": "References ISO/IEC 24027 (AI — Consideration of bias in AI systems) by section number only. ISO documents are copyrighted and licensed separately; this set embeds no ISO text and is provided as a reference pointer to the standard's abstract page for further information.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-08",
+      "files": [
+        "iso-24027/applicability.json",
+        "iso-24027/regulations.json"
+      ]
+    },
+    "sg-mgf-agentic": {
+      "title": "Singapore MGF for Agentic AI",
+      "source_url": "https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-research/artificial-intelligence/mgf-for-agentic-ai.pdf",
+      "licence_basis": "reference-only",
+      "attribution": "References the Model AI Governance Framework for Agentic AI (Version 1.5, 20 May 2026, updated 5 June 2026) published by Singapore's Infocomm Media Development Authority by section number only. This set embeds no IMDA text; the summaries are our own-language mapping notes and the authoritative document is the PDF published on the IMDA site.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-24",
+      "files": [
+        "sg-mgf-agentic/applicability.json",
+        "sg-mgf-agentic/regulations.json"
+      ]
+    },
+    "china-genai": {
+      "title": "China Generative AI Measures",
+      "source_url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+      "licence_basis": "reference-only",
+      "attribution": "References the Measures for the Management of Generative Artificial Intelligence Services (CAC et al., Order No. 15, published 13 July 2023, effective 15 August 2023) issued by China's Cyberspace Administration and co-issuing departments by section number only. This set embeds no CAC text; the summaries are our own-language mapping notes and the authoritative document is the Chinese-language text published on the CAC site.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-28",
+      "files": [
+        "china-genai/applicability.json",
+        "china-genai/regulations.json"
+      ]
+    },
+    "japan-ai-gov": {
+      "title": "Japan AI Appropriateness Guideline",
+      "source_url": "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_gl_2025.pdf",
+      "licence_basis": "reference-only",
+      "attribution": "References the Guideline for Ensuring the Appropriateness of Research, Development and Utilization of AI-Related Technology (AI Strategic Headquarters decision, 19 December 2025, under Art. 13 of Japan's AI Basic Act) published by Japan's Cabinet Office Secretariat for Science and Technology Policy by section number only. This set embeds no Cabinet Office text; the summaries are our own-language mapping notes and the authoritative document is the Japanese-language PDF published on the Cabinet Office site (an unofficial English summary is posted alongside it).",
+      "derivation": "own-language",
+      "verified_at": "2026-10-28",
+      "files": [
+        "japan-ai-gov/applicability.json",
+        "japan-ai-gov/regulations.json"
+      ]
+    },
+    "bcbs-model-risk": {
+      "title": "BCBS Model Risk / AI-ML Guidance",
+      "source_url": "https://www.bis.org/bcbs",
+      "licence_basis": "reference-only",
+      "attribution": "References the Basel Committee on Banking Supervision's model-risk guidance and its ongoing work on AI and machine learning in banking by section number only. BIS publications are copyrighted by the BIS; this set embeds no BIS text and is provided as a reference pointer to the Committee's pages for further information.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-29",
+      "files": [
+        "bcbs-model-risk/applicability.json",
+        "bcbs-model-risk/regulations.json"
+      ]
+    },
+    "iosco-ai-guidance": {
+      "title": "IOSCO AI Guidance",
+      "source_url": "https://www.iosco.org",
+      "licence_basis": "reference-only",
+      "attribution": "References the International Organization of Securities Commissions' AI-related guidance and consultation reports by section number only. IOSCO publications are copyrighted by IOSCO; this set embeds no IOSCO text and is provided as a reference pointer to the Organization's site for further information.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-29",
+      "files": [
+        "iosco-ai-guidance/applicability.json",
+        "iosco-ai-guidance/regulations.json"
+      ]
+    },
+    "eba-ai-guidelines": {
+      "title": "EBA AI/ML Guidelines",
+      "source_url": "https://www.eba.europa.eu/regulation-and-policy/internal-governance",
+      "licence_basis": "reference-only",
+      "attribution": "References European Banking Authority guidelines and reports by section number only. EBA documents are copyrighted by the EBA; this set embeds no EBA text and is provided as a reference pointer to the Authority's site for further information.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-29",
+      "files": [
+        "eba-ai-guidelines/applicability.json",
+        "eba-ai-guidelines/regulations.json"
+      ]
+    },
+    "ftc-ai-consumer-protection": {
+      "title": "FTC — AI Consumer Protection",
+      "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-07-07/pdf/2026-13628.pdf",
+      "licence_basis": "public-domain-US-gov",
+      "attribution": "Contains our own-language mapping summaries derived from Federal Trade Commission public documents: section 5 of the FTC Act (15 U.S.C. 45) and the Commission's proposed Policy Statement Concerning the Suppression of Accuracy in Artificial Intelligence Systems, 91 FR 41638 (July 7, 2026). U.S. Government works are not subject to copyright under 17 U.S.C. 105; the authoritative texts remain the versions published on govinfo.gov.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-29",
+      "files": [
+        "ftc-ai-consumer-protection/applicability.json",
+        "ftc-ai-consumer-protection/regulations.json"
+      ]
+    },
+    "icaew-ai-standards": {
+      "title": "ICAEW — AI Standards and Guidance",
+      "source_url": "https://www.icaew.com/technical/technology/artificial-intelligence/managing-risks/ai-governance-10-essential-questions-for-responsible-adoption",
+      "licence_basis": "reference-only",
+      "attribution": "References ICAEW's AI governance guidance by page and question number only. ICAEW material is copyrighted by The Institute of Chartered Accountants in England and Wales; this set embeds no ICAEW text and is provided as a reference pointer to the Institute's pages for further information.",
+      "derivation": "own-language",
+      "verified_at": "2026-10-31",
+      "files": [
+        "icaew-ai-standards/applicability.json"
+      ]
+    }
+  }
+}

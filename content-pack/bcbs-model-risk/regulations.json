@@ -1,0 +1,61 @@
+{
+  "set": "bcbs-model-risk",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "Basel Committee (BCBS) AI/ML Guidance",
+      "jurisdiction": "International",
+      "version": "v1",
+      "effective_date": "2026-08-26",
+      "status": "ACTIVE",
+      "source_url": "https://www.bis.org/bcbs",
+      "description": "Basel Committee model risk management and AI/ML guidance, referenced by section only: our own-language paraphrase; no BIS text is embedded",
+      "titles": [
+        {
+          "number": "Principles",
+          "text": "Model risk principles applied to AI/ML",
+          "sections": [
+            {
+              "number": "Section 1",
+              "text": "Independent validation",
+              "requirements": [
+                {
+                  "text": "Model developers do not validate their own models: independent validation is required for all material models, aligning with Principle 12 of the SR 11-7 governance standard now carried forward by SR 26-2.",
+                  "mandatory": true,
+                  "rationale": "Independence is the governance constant; SR 26-2 ties quality to review rigour rather than separation alone.",
+                  "controls": [
+                    {
+                      "description": "Route material models, including AI/ML models, through validation functionally independent of development.",
+                      "type": "REVIEW",
+                      "status": "VALIDATED",
+                      "validated_by": "Head of Model Risk",
+                      "validated_at": "2026-07-01T09:00:00Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Section 2",
+              "text": "Ongoing AI/ML work",
+              "requirements": [
+                {
+                  "text": "The Committee's ongoing work on AI and machine learning in banking extends model governance, validation and risk management expectations to AI/ML techniques.",
+                  "mandatory": false,
+                  "rationale": "AI-specific guidance is evolving; firms are expected to absorb it into existing frameworks.",
+                  "controls": [
+                    {
+                      "description": "Track BCBS AI/ML publications and map changes into the firm's model risk framework.",
+                      "type": "MONITORING",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

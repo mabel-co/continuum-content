@@ -1,0 +1,8 @@
+{
+  "set": "bcbs-model-risk",
+  "schema_version": 1,
+  "items": {
+    "bcbs-model-risk::model-validation-independence": "The Basel Committee's model-risk guidance holds that model developers should not validate their own models: every material model needs review by a validation function independent of model development and use. AI and machine-learning models used in banking are models in this sense, so the independence expectation travels with them across the model lifecycle.",
+    "bcbs-model-risk::ai-ml-governance-oversight": "The Basel Committee is conducting ongoing work on artificial intelligence and machine learning in banking, covering model governance, validation and risk-management practices for AI/ML models. The Committee's existing governance and risk-management principles apply in the meantime, and banks are expected to keep track of the further guidance as it is issued."
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "set": "uk-fca",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "FCA Guidance on AI/ML",
+      "jurisdiction": "UK",
+      "version": "FP Note 04/2024",
+      "effective_date": "2024-04-17",
+      "status": "ACTIVE",
+      "source_url": "https://www.fca.org.uk/publication/policy/fp-24-04.pdf",
+      "description": "Financial Policy Note 04/2024: AI/ML guidance for financial services",
+      "titles": [
+        {
+          "number": "Clause 1",
+          "text": "Principles of AI governance",
+          "sections": [
+            {
+              "number": "Section 1.2",
+              "text": "Governance frameworks",
+              "requirements": [
+                {
+                  "text": "Firms should have clear accountability for AI system governance, with senior management oversight.",
+                  "mandatory": true,
+                  "rationale": "Senior oversight ensures AI systems align with firm-wide risk appetite.",
+                  "controls": [
+                    {
+                      "description": "Appoint a named senior manager responsible for AI governance with clear charter and board reporting obligations.",
+                      "type": "PROCESS",
+                      "status": "DRAFT"
+                    }
+                  ]
+                },
+                {
+                  "text": "AI systems should be subject to the same risk management standards as any other system used by the firm.",
+                  "mandatory": true,
+                  "rationale": "AI systems pose similar operational risks to other critical systems.",
+                  "controls": [
+                    {
+                      "description": "Apply the firm's existing risk management framework (ERM, operational risk, third-party risk) to AI systems without exception.",
+                      "type": "PROCESS",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Clause 2",
+          "text": "Data and model risk",
+          "sections": [
+            {
+              "number": "Section 2.1",
+              "text": "Data governance",
+              "requirements": [
+                {
+                  "text": "Firms using AI should ensure data quality, provenance, and lineage are well-documented.",
+                  "mandatory": true,
+                  "rationale": "Poor data quality leads to biased or unreliable AI outputs.",
+                  "controls": [
+                    {
+                      "description": "Document data provenance for all AI training and operational data; verify data quality metrics at intake and at regular intervals.",
+                      "type": "DOCUMENTATION",
+                      "status": "VALIDATED",
+                      "validated_by": "Compliance Lead",
+                      "validated_at": "2026-09-01T10:00:00Z"
+                    }
+                  ]
+                },
+                {
+                  "text": "Firms should test for bias in AI systems and take remedial action where bias is identified.",
+                  "mandatory": true,
+                  "rationale": "Bias testing is essential for regulatory compliance and ethical AI use.",
+                  "controls": [
+                    {
+                      "description": "Implement automated bias detection tests across protected characteristics; schedule quarterly re-testing; document remediation actions.",
+                      "type": "TECHNICAL",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "Clause 3",
+          "text": "Consumer duty alignment",
+          "sections": [
+            {
+              "number": "Section 3.1",
+              "text": "Consumer outcomes",
+              "requirements": [
+                {
+                  "text": "AI-driven decisions should not produce outcomes that breach the Consumer Duty.",
+                  "mandatory": true,
+                  "rationale": "AI systems must deliver good outcomes for retail customers.",
+                  "controls": [
+                    {
+                      "description": "Conduct Consumer Duty impact assessments for all AI systems serving retail customers; monitor outcomes post-deployment.",
+                      "type": "REVIEW",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

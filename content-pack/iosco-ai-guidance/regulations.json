@@ -1,0 +1,79 @@
+{
+  "set": "iosco-ai-guidance",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "IOSCO AI Guidance",
+      "jurisdiction": "International",
+      "version": "v1",
+      "effective_date": "2026-08-26",
+      "status": "ACTIVE",
+      "source_url": "https://www.iosco.org",
+      "description": "IOSCO AI-related guidance and consultation reports for securities markets, referenced by section only: our own-language paraphrase; no IOSCO text is embedded",
+      "titles": [
+        {
+          "number": "Markets",
+          "text": "AI across securities market functions",
+          "sections": [
+            {
+              "number": "Section 1",
+              "text": "Market surveillance",
+              "requirements": [
+                {
+                  "text": "AI used for market surveillance - detecting market abuse, insider trading and manipulation - is governed so its outputs are reliable evidence for decisions affecting market participants.",
+                  "mandatory": false,
+                  "rationale": "Surveillance AI shapes enforcement; its error profile must be known, not assumed.",
+                  "controls": [
+                    {
+                      "description": "Validate surveillance AI detection quality and document how alerts feed human analyst review.",
+                      "type": "REVIEW",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Section 2",
+              "text": "Investment research",
+              "requirements": [
+                {
+                  "text": "AI-driven investment research is subject to due diligence and analyst oversight, so research outputs remain attributable and conflict-managed.",
+                  "mandatory": false,
+                  "rationale": "Automation does not transfer responsibility for research integrity away from the analyst.",
+                  "controls": [
+                    {
+                      "description": "Apply due diligence to AI research tools and require named-analyst review before publication.",
+                      "type": "PROCESS",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Section 3",
+              "text": "Robo-advisory",
+              "requirements": [
+                {
+                  "text": "AI systems used for robo-advisory and automated wealth management support suitability assessment and meet disclosure requirements to clients.",
+                  "mandatory": false,
+                  "rationale": "Suitability obligations apply to automated advice as they do to human advice.",
+                  "controls": [
+                    {
+                      "description": "Disclose the role of AI in advice and evidence suitability logic in client onboarding records.",
+                      "type": "DOCUMENTATION",
+                      "status": "VALIDATED",
+                      "validated_by": "Head of Model Risk",
+                      "validated_at": "2026-07-01T09:00:00Z"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "set": "ftc-ai-consumer-protection",
+  "schema_version": 1,
+  "items": [
+    {
+      "name": "FTC — AI Consumer Protection",
+      "jurisdiction": "US",
+      "version": "v2",
+      "effective_date": "2026-08-26",
+      "status": "ACTIVE",
+      "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-07-07/pdf/2026-13628.pdf",
+      "description": "FTC enforcement and guidance on AI under Section 5 of the FTC Act, including the proposed policy statement on suppressing AI output accuracy, 91 FR 41638 (July 7, 2026)",
+      "titles": [
+        {
+          "number": "Enforcement",
+          "text": "Consumer protection in the AI context",
+          "sections": [
+            {
+              "number": "Section 1",
+              "text": "Deception and unfairness enforcement",
+              "requirements": [
+                {
+                  "text": "The FTC enforces existing consumer protection law, Section 5 of the FTC Act, against deceptive or unfair AI practices, including misrepresentation of what an AI system can do.",
+                  "mandatory": true,
+                  "rationale": "Claims about AI performance are subject to the same substantiation doctrine as any other ad claim.",
+                  "controls": [
+                    {
+                      "description": "Substantiate AI capability claims with evidence held before publication and reviewed for implied claims.",
+                      "type": "REVIEW",
+                      "status": "VALIDATED",
+                      "validated_by": "Head of Model Risk",
+                      "validated_at": "2026-07-01T09:00:00Z"
+                    },
+                    {
+                      "description": "Correct or withdraw claims whose supporting evidence no longer matches system behaviour.",
+                      "type": "PROCESS",
+                      "status": "PENDING"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": "Section 2",
+              "text": "Output accuracy and steering",
+              "requirements": [
+                {
+                  "text": "Deliberately suppressing the accuracy of AI outputs to gain a competitive advantage - the conduct described in the Commission's proposed policy statement - risks unfair-methods-of-competition liability, alongside guidance on fairness, transparency and human oversight in AI-driven decisions.",
+                  "mandatory": false,
+                  "rationale": "Accuracy-suppression choices become evidence in an unfair-methods case; a record is the defence.",
+                  "controls": [
+                    {
+                      "description": "Document decisions that alter AI output accuracy and the business reasons behind them.",
+                      "type": "DOCUMENTATION",
+                      "status": "DRAFT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

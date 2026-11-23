@@ -1,0 +1,9 @@
+{
+  "set": "iso-24027",
+  "schema_version": 1,
+  "items": {
+    "iso-24027::bias-identification": "Work out where bias can enter an AI system - in the selection of data and samples, in how things are measured, in what gets reported, and in systemic patterns - across its design, data collection and deployment, keeping affected individuals and domains in view.",
+    "iso-24027::bias-mitigation": "Choose and apply measures against the biases you found - at the data stage, while the model is developed, or after deployment - so mitigation is deliberate and recorded rather than incidental.",
+    "iso-24027::fairness-evaluation": "Decide and measure how fair the system's outputs are for the different groups and use-cases it touches, and treat that measurement as part of putting the system into use."
+  }
+}
